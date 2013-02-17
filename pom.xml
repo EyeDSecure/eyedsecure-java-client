@@ -1,22 +1,22 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.yubico</groupId>
-    <artifactId>yubico-validation-client</artifactId>
-    <version>2.0.2-SNAPSHOT</version>
-    <name>Yubico OTP validation client</name>
-    <description>Client library written in Java for verifying Yubikey one-time passwords (OTPs).</description>
+    <groupId>com.eyedsecure</groupId>
+    <artifactId>eyedsecure-java-client</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+    <name>Eye-D Secure challenge image generator and OTP validation client</name>
+    <description>Java client for requesting challenge images and for verifying one-time passwords.</description>
     <organization>
-        <name>Yubico AB</name>
-        <url>http://www.yubico.com/</url>
+        <name>Eye-D Secure</name>
+        <url>http://www.eyedsecure.com/</url>
     </organization>
-    <url>http://yubico.github.com/yubico-java-client/</url>
+    <url>http://www.github.com/eyedsecure/eyedsecure-java-client/</url>
     <packaging>pom</packaging>
 
     <developers>
       <developer>
-        <id>klas</id>
-        <name>Klas Lindfors</name>
-        <email>klas@yubico.com</email>
+        <id>boksman</id>
+        <name>Benjamin Oksman</name>
+        <email>boksman@eyedsecure.com</email>
       </developer>
     </developers>
 
@@ -28,15 +28,13 @@
     </licenses>
 
     <scm>
-      <url>scm:git:git://github.com/Yubico/yubico-java-client.git</url>
-      <connection>scm:git:git://github.com/Yubico/yubico-java-client.git</connection>
-      <developerConnection>scm:git:ssh://git@github.com/Yubico/yubico-java-client.git</developerConnection>
+      <url>scm:git:git://github.com/EyeDSecure/eyedsecure-java-client.git</url>
+      <connection>scm:git:git://github.com/EyeDSecure/eyedsecure-java-client.git</connection>
+      <developerConnection>scm:git:ssh://git@github.com/EyeDSecure/eyedsecure-java-client.git</developerConnection>
     </scm>
 
     <modules>
-      <module>v1client</module>
-      <module>v2client</module>
-      <module>jaas</module>
+      <module>client</module>
     </modules>
 
     <distributionManagement>
