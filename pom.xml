@@ -10,7 +10,7 @@
         <url>http://www.eyedsecure.com/</url>
     </organization>
     <url>http://www.github.com/eyedsecure/eyedsecure-java-client/</url>
-    <packaging>pom</packaging>
+    <packaging>ja</packaging>
 
     <developers>
       <developer>
@@ -49,6 +49,8 @@
         <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
       </snapshotRepository>
     </distributionManagement>
+
+
 
     <build>
         <plugins>
@@ -155,4 +157,38 @@
             </build>
           </profile>
         </profiles>
+
+    <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.8.2</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-api</artifactId>
+      <version>1.6.1</version>
+    </dependency>
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-simple</artifactId>
+      <version>1.6.1</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>commons-codec</groupId>
+      <artifactId>commons-codec</artifactId>
+      <version>1.4</version>
+    </dependency>
+  </dependencies>
+  <build>
+    <resources>
+      <resource>
+        <directory>src/main/resources</directory>
+        <filtering>true</filtering>
+      </resource>
+    </resources>
+  </build>
+    
 </project>
