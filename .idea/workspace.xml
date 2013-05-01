@@ -1,0 +1,1073 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e6af5f94-05cb-4223-9d33-396888905d01" name="Default" comment="" />
+    <ignored path="eyedsecure-java-client.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <file path="/pom.xml" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1361109577022" ignored="false" />
+    <file path="/Dummy.txt" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367414415470" ignored="false" />
+    <file path="/TestApp.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367281365617" ignored="false" />
+    <file path="/fragment.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367361571795" ignored="false" />
+    <file path="/Version.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1361211119046" ignored="false" />
+    <file path="/Todo.txt" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367376957180" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/Todo.txt" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367348658865" ignored="false" />
+    <file path="/EyeDSecureClient.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367354133836" ignored="false" />
+    <file path="/Signature.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367327624550" ignored="false" />
+    <file path="/EyeDSecureResponse.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367322959256" ignored="false" />
+    <file path="/EyeDSecureResponseCode.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367323527021" ignored="false" />
+    <file path="$PROJECT_DIR$/../gc_dev/Java/Apps/OMS/Todo.txt" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367377055537" ignored="false" />
+    <file path="$PROJECT_DIR$/../yubico-java-client/v2client/src/main/java/com/yubico/client/v2/impl/YubicoClientImpl.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367328290198" ignored="false" />
+    <file path="/RequestException.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367328466279" ignored="false" />
+    <file path="/EyeDSecureService.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367335483573" ignored="false" />
+    <file path="/ResponseParser.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367353865136" ignored="false" />
+    <file path="/Response.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367334160614" ignored="false" />
+    <file path="/ResponseCode.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367336271887" ignored="false" />
+    <file path="/TODO.txt" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367414373402" ignored="false" />
+    <file path="/App.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367348752457" ignored="false" />
+    <file path="/ResponseTest.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367338917823" ignored="false" />
+    <file path="/ResponseParserTest.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367341911983" ignored="false" />
+    <file path="/EyeDSecureClientTest.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367358902293" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/test/unit/eyedsecure/APIKeyTests.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367342889755" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/ReleaseNotes.txt" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367346047108" ignored="false" />
+    <file path="/ReleaseNotes.txt" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367414341068" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/test/unit/eyedsecure/APIRequestTests.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367342942807" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/domain/eyedsecure/APIRequest.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367359840764" ignored="false" />
+    <file path="/APIRequest.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367359804858" ignored="false" />
+    <file path="/a.dummy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367361576135" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/src/java/eyedsecure/api/ResponseCode.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367343167981" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/domain/eyedsecure/LogItem.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367360839291" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/domain/eyedsecure/APIKey.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367377911591" ignored="false" />
+    <file path="/APIKey.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367377911591" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/test/unit/eyedsecure/APIFunctionTests.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367343567212" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/Grails/lib/grails_integration.jar!/org/jetbrains/plugins/grails/lang/gsp/resolve/taglib/tld/grails.tld" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367343567212" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/domain/eyedsecure/APIFunction.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367343690460" ignored="false" />
+    <file path="/APIFunction.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367343619305" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/domain/eyedsecure/APIKeyFunction.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367344082856" ignored="false" />
+    <file path="/APIKeyFunction.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367344065666" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/test/unit/eyedsecure/AccessRuleTests.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367344621744" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/domain/eyedsecure/AccessRule.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367372020757" ignored="false" />
+    <file path="/AccessRule.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367372020383" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/services/ValidationService.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367350657382" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/views/tokenLogItem/show.gsp" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367344789425" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/test/unit/eyedsecure/TokenLogItemControllerTests.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367344790895" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/controllers/eyedsecure/TokenLogItemController.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367344789425" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/domain/eyedsecure/LogItemToken.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367344789425" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/views/tokenLogItem/list.gsp" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367344789425" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/domain/eyedsecure/Token.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367345012605" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/views/tokenLogItem/create.gsp" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367344789426" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/views/tokenLogItem/_form.gsp" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367344789426" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/views/tokenLogItem/edit.gsp" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367344789426" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/domain/eyedsecure/LogItemAccessRule.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367344871948" ignored="false" />
+    <file path="/LogItemAccessRule.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367344869748" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/views/tokenBatchLogItem/create.gsp" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367345012605" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/views/tokenBatchLogItem/_form.gsp" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367345012605" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/views/tokenBatchLogItem/edit.gsp" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367345012605" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/views/tokenBatchLogItem/show.gsp" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367345012605" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/test/unit/eyedsecure/LogItemTokenBatchTests.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367345012605" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/test/unit/eyedsecure/TokenBatchLogItemControllerTests.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367345014489" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/controllers/eyedsecure/TokenBatchLogItemController.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367345012605" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/domain/eyedsecure/TokenBatch.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367345012605" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/domain/eyedsecure/LogItemTokenBatch.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367345012605" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/views/tokenBatchLogItem/list.gsp" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367345012605" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/domain/eyedsecure/LogItemAPIKey.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367345237488" ignored="false" />
+    <file path="/LogItemAPIKey.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367345230474" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/test/unit/eyedsecure/AccessRuleSingleIPTests.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367345640579" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/domain/eyedsecure/AccessRuleSingleIP.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367372011392" ignored="false" />
+    <file path="/AccessRuleSingleIP.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367345963297" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/conf/BootStrap.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367373372905" ignored="false" />
+    <file path="/BootStrap.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367373353472" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/test/unit/eyedsecure/APIControllerTests.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367347105876" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/controllers/eyedsecure/APIController.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367378733916" ignored="false" />
+    <file path="/APIController.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367378733916" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/test/unit/eyedsecure/APIClientTests.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367349088816" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/domain/eyedsecure/APIClient.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367372036205" ignored="false" />
+    <file path="/APIClient.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367372036205" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/domain/eyedsecure/LogItemAPIClient.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367349388261" ignored="false" />
+    <file path="/LogItemAPIClient.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367349386828" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/domain/eyedsecure/APIClientSpecificVersion.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367371697052" ignored="false" />
+    <file path="/APIClientSpecificVersion.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367349812969" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/views/API/activate.gsp" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367353520233" ignored="false" />
+    <file path="/activate.gsp" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367353489300" ignored="false" />
+    <file path="/ValidationService.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367350603866" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/src/java/eyedsecure/api/Signature.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367353066976" ignored="false" />
+    <file path="$PROJECT_DIR$/../gc_dev/Java/Libs/Product/src/main/java/product/boot/BootStrap.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367354793212" ignored="false" />
+    <file path="/BootStrap.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367354793212" ignored="false" />
+    <file path="$PROJECT_DIR$/../gc_dev/Java/pom.xml" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367354836882" ignored="false" />
+    <file path="$PROJECT_DIR$/../gc_dev/Java/Apps/OMS/OMSClient/src/main/java/oms/app/OMSClientApp.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367358235580" ignored="false" />
+    <file path="/OMSClientApp.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367358233071" ignored="false" />
+    <file path="$PROJECT_DIR$/../gc_dev/Java/Libs/OMS/src/main/java/oms/view/panel/LogPanel.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367357376091" ignored="false" />
+    <file path="/LogPanel.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367357375767" ignored="false" />
+    <file path="$PROJECT_DIR$/../gc_dev/Java/Apps/OMS/ReleaseNotes.txt" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367357598347" ignored="false" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="DebuggerManager">
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint url="file://$PROJECT_DIR$/src/test/java/com/eyedsecure/client/EyeDSecureClientTest.java" line="58" class="com.eyedsecure.client.EyeDSecureClientTest" package="com.eyedsecure.client">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/eyedsecure/client/EyeDSecureClient.java" line="117" class="com.eyedsecure.client.EyeDSecureClient" package="com.eyedsecure.client">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <breakpoint_rules />
+    <ui_properties />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="eyedsecure-java-client" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="App.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/eyedsecure/client/App.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="161" column="48" selection-start="5802" selection-end="5802" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EyeDSecureClientTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/eyedsecure/client/EyeDSecureClientTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="70" column="24" selection-start="2235" selection-end="2235" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReflectiveCallable.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.8.2/junit-4.8.2-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="0" selection-start="405" selection-end="405" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="n#!!doc" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TODO.txt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TODO.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="0" selection-start="55" selection-end="55" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReleaseNotes.txt" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ReleaseNotes.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="39" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ResponseParserTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/eyedsecure/client/ResponseParserTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="47" selection-start="644" selection-end="644" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EyeDSecureClient.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/eyedsecure/client/EyeDSecureClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="160" column="0" selection-start="5749" selection-end="5749" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#1502#1518#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Signature.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/eyedsecure/client/Signature.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="14" selection-start="377" selection-end="377" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="boksman" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/eyedsecure/client/Signature.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/eyedsecure/client/RequestExcaption.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/eyedsecure/client/RequestException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/eyedsecure/client/ResponseException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/eyedsecure/client/EyeDSecureService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/eyedsecure/client/ResponseCode.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/test/java/com/eyedsecure/client/ResponseTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/eyedsecure/client/Response.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/eyedsecure/client/App.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/eyedsecure/client/ResponseParserTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/eyedsecure/client/ResponseParser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/eyedsecure/client/EyeDSecureClient.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/eyedsecure/client/EyeDSecureClientTest.java" />
+        <option value="$PROJECT_DIR$/ReleaseNotes.txt" />
+        <option value="$PROJECT_DIR$/TODO.txt" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-1688" />
+    <option name="y" value="22" />
+    <option name="width" value="1696" />
+    <option name="height" value="1066" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="eyedsecure-java-client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="eyedsecure-java-client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="eyedsecure-java-client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="recentsLimit" value="5" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../yubico-java-client" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="dynamic.classpath" value="false" />
+  </component>
+  <component name="PublishConfig">
+    <servers>
+      <server id="67c5a950-630a-415c-bad1-58c16cebbf95">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </server>
+      <server id="b6b9cb11-0afd-421d-849f-c453ef3d769f">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </server>
+      <server id="ca3164a1-5e86-4861-9b89-2fd4637a4e99">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </server>
+      <server id="ef165c65-5e7b-410d-9dc3-c90610505ab7">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </server>
+      <server id="fb3cd314-fdd2-4689-8206-8eb5d998ace5">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </server>
+    </servers>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.eyedsecure.client" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.EyeDSecureClientTest.testActivate">
+    <configuration default="false" name="EyeDSecureClientTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.eyedsecure.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="eyedsecure-java-client" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.eyedsecure.client" />
+      <option name="MAIN_CLASS_NAME" value="com.eyedsecure.client.EyeDSecureClientTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="EyeDSecureClientTest.testShortClientId" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.eyedsecure.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="eyedsecure-java-client" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.eyedsecure.client" />
+      <option name="MAIN_CLASS_NAME" value="com.eyedsecure.client.EyeDSecureClientTest" />
+      <option name="METHOD_NAME" value="testShortClientId" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="EyeDSecureClientTest.testOperationNotAllowed" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.eyedsecure.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="eyedsecure-java-client" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.eyedsecure.client" />
+      <option name="MAIN_CLASS_NAME" value="com.eyedsecure.client.EyeDSecureClientTest" />
+      <option name="METHOD_NAME" value="testOperationNotAllowed" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="EyeDSecureClientTest.testBadSignature" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.eyedsecure.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="eyedsecure-java-client" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.eyedsecure.client" />
+      <option name="MAIN_CLASS_NAME" value="com.eyedsecure.client.EyeDSecureClientTest" />
+      <option name="METHOD_NAME" value="testBadSignature" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="EyeDSecureClientTest.testActivate" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.eyedsecure.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="eyedsecure-java-client" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.eyedsecure.client" />
+      <option name="MAIN_CLASS_NAME" value="com.eyedsecure.client.EyeDSecureClientTest" />
+      <option name="METHOD_NAME" value="testActivate" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.EyeDSecureClientTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.EyeDSecureClientTest.testShortClientId" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.EyeDSecureClientTest.testOperationNotAllowed" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.EyeDSecureClientTest.testBadSignature" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.EyeDSecureClientTest.testActivate" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.EyeDSecureClientTest.testActivate" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.EyeDSecureClientTest.testBadSignature" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.EyeDSecureClientTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.EyeDSecureClientTest.testOperationNotAllowed" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.EyeDSecureClientTest.testShortClientId" />
+      </list>
+    </recent_temporary>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="DETECT_NESTED_COPIES" value="true" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e6af5f94-05cb-4223-9d33-396888905d01" name="Default" comment="" />
+      <created>1361107972739</created>
+      <updated>1361107972739</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Setup of project structure">
+      <created>1361109910661</created>
+      <updated>1361109910661</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Add main class TestApp">
+      <created>1361206926098</created>
+      <updated>1361206926098</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Changes to TestApp">
+      <created>1361210934551</created>
+      <updated>1361210934551</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Initial upload">
+      <created>1367414423192</created>
+      <updated>1367414423192</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1688" y="22" width="1696" height="1066" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3970894" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32939914" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952183" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998884" sideWeight="0.67047817" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2741738" sideWeight="0.67060083" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32725322" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952183" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle Output" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952183" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="CHECK_NEW_TODO" value="true" />
+    <option name="myTodoPanelSettings">
+      <value>
+        <are-packages-shown value="false" />
+        <are-modules-shown value="false" />
+        <flatten-packages value="false" />
+        <is-autoscroll-to-source value="false" />
+      </value>
+    </option>
+    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
+    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
+    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
+    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
+    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
+    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
+    <option name="SHORT_DIFF_HORIZONTALLY" value="true" />
+    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
+    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
+    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
+    <option name="LIMIT_HISTORY" value="true" />
+    <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
+    <option name="UPDATE_FILTER_SCOPE_NAME" />
+    <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
+    <option name="COMMIT_MESSAGE_MARGIN_SIZE" value="72" />
+    <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
+    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial upload" />
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
+    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
+    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
+    <option name="ACTIVE_VCS_NAME" />
+    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
+    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
+    <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
+    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
+    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+    <MESSAGE value="Setup of project structure" />
+    <MESSAGE value="Add main class TestApp" />
+    <MESSAGE value="Changes to TestApp" />
+    <MESSAGE value="Initial upload" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$PROJECT_DIR$/../../Java/jdk1.6.0_20/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="217" column="18" selection-start="10342" selection-end="10342" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/eyedsecure/client/Version.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="13" selection-start="131" selection-end="131" vertical-scroll-proportion="0.10920771">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/eyedsecure/client/EyeDSecureService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="104" column="0" selection-start="3119" selection-end="3119" vertical-scroll-proportion="0.81798714">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/eyedsecure/client/ResponseCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="0" selection-start="1488" selection-end="1488" vertical-scroll-proportion="0.34475374">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/eyedsecure/client/Response.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="100" column="60" selection-start="2262" selection-end="2262" vertical-scroll-proportion="2.2568092">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/eyedsecure/client/ResponseParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="79" column="0" selection-start="2458" selection-end="2458" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/eyedsecure/client/EyeDSecureClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="160" column="0" selection-start="5749" selection-end="5749" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#1502#1518#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.8.2/junit-4.8.2-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="0" selection-start="405" selection-end="405" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/eyedsecure/client/ResponseParserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="47" selection-start="644" selection-end="644" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/eyedsecure/client/EyeDSecureClientTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="70" column="24" selection-start="2235" selection-end="2235" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TODO.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="55" selection-end="55" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/eyedsecure/client/Signature.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="14" selection-start="377" selection-end="377" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/eyedsecure/client/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="161" column="48" selection-start="5802" selection-end="5802" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ReleaseNotes.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="39" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Python 2.7.3 (C:\dev\Python\Python27\python.exe) interpreter library</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>eyedsecure-java-client</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.20000002" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: commons-codec:commons-codec:1.4</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
+
