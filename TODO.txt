@@ -1,0 +1,9 @@
+Check signatures from server against server responses.
+
+
+
+
+Add additional unit tests
+Add deactivate
+Add challenge request
+Add validate challenge request

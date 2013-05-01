@@ -68,7 +68,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>com.eyedsecure.client.TestApp</mainClass>
+                            <mainClass>com.eyedsecure.client.App</mainClass>
                         </manifest>
                     </archive>
                     <descriptorRefs>
