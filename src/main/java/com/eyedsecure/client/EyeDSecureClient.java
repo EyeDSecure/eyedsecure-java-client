@@ -46,18 +46,23 @@ public class EyeDSecureClient {
         return java.util.UUID.randomUUID().toString().replaceAll("-", "");
     }
 
+    public Response activate(String tokenId, boolean activate) throws RequestException {
+        String nonce = java.util.UUID.randomUUID().toString().replaceAll("-", "");
+        return activate(tokenId, nonce,activate);
+    }
+
+
     /**
      * Send token activation request to server
      * The ClientId must be authorized to send this type of request.
      */
-    public Response activate(String tokenId) throws RequestException {
-        if(sharedKey==null) throw new IllegalArgumentException("This type of request requires a shared key");
+    public Response activate(String tokenId, String nonce, boolean activate) throws RequestException {
+        if (sharedKey == null) throw new IllegalArgumentException("This type of request requires a shared key");
         Map<String, String> reqMap = new HashMap<String, String>();
-        String nonce = java.util.UUID.randomUUID().toString().replaceAll("-", "");
-        //String action = "activate";
+
+
         reqMap.put("no", nonce);
         reqMap.put("id", String.valueOf(clientId));
-        //reqMap.put("a", "a");
         reqMap.put("tid", tokenId);
 
         StringBuilder paramStrBuilder = new StringBuilder();
@@ -73,7 +78,6 @@ public class EyeDSecureClient {
         }
 
         String paramStr = paramStrBuilder.toString();
-
 
 
         // todo: Should shared key be required?
@@ -92,7 +96,8 @@ public class EyeDSecureClient {
 
         List<String> serverUrls = new ArrayList<String>();
         for (String url : getUrls()) {
-            serverUrls.add(url.concat("/activate?").concat(paramStr));
+            if(activate) serverUrls.add(url.concat("/activate?").concat(paramStr));
+            else serverUrls.add(url.concat("/deactivate?").concat(paramStr));
         }
 
         Response response = service.fetch(serverUrls, userAgent);
@@ -116,7 +121,7 @@ public class EyeDSecureClient {
             }
             try {
                 String signature = Signature.calculate(keyValueStr.toString(), sharedKey).trim();
-                if (response.getSig()!=null && !response.getSig().equals(signature) &&
+                if (response.getSig() != null && !response.getSig().equals(signature) &&
                         !response.getResponseCode().equals(ResponseCode.BAD_SIGNATURE)) {
                     // don't throw a RequestFailure if the server responds with bad signature
                     throw new RequestException("Signatures miss-match");
@@ -131,7 +136,9 @@ public class EyeDSecureClient {
         // If there is an error response, don't need to check them.
         if (!ResponseCode.isErrorCode(response.getResponseCode())) {
             // Verify the action
-            if (response.getAction() == null || !"a".equals(response.getAction())) {
+            if (response.getAction() == null ||
+                    (activate && !"a".equals(response.getAction())) ||
+                    (!activate && !"d".equals(response.getAction())) ) {
                 throw new RequestException("Token mismatch in response, is there a man-in-the-middle?");
             }
 
@@ -147,11 +154,11 @@ public class EyeDSecureClient {
             }
 
             // Verify server time, for additional security you can verify the UTC timestamp is reasonable
-            if (response.getServerTimeStamp() == null ) {
+            if (response.getServerTimeStamp() == null) {
                 throw new RequestException("Missing server timestamp");
             }
 
-            if(response.getSig()==null) {
+            if (response.getSig() == null) {
                 throw new RequestException("Missing signature");
             }
 
@@ -159,7 +166,6 @@ public class EyeDSecureClient {
 
 
         return response;
-
     }
 
 
@@ -202,7 +208,6 @@ public class EyeDSecureClient {
         }
         return isPrintable && (OTP_MIN_LEN <= len && len <= OTP_MAX_LEN);
     } */
-
 
 
 }

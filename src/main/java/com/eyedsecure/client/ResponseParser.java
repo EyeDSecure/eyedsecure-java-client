@@ -6,6 +6,7 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.TreeMap;
 
 /**
  * User: boksman
@@ -27,7 +28,8 @@ public class ResponseParser {
     public Response parse() throws IOException, InvalidResponse {
         BufferedReader in = new BufferedReader(new InputStreamReader(inputStream));
 
-        Map<String, String> responseMap = new HashMap<String, String>();
+        // We use a TreeMap so we get consistent signature
+        Map<String, String> responseMap = new TreeMap<String, String>();
         String line;
         while ((line = in.readLine()) != null) {
             int delimiterIndex=line.indexOf("=");
@@ -51,18 +53,19 @@ public class ResponseParser {
         String action = responseMap.get("a");
         if(action==null) throw new InvalidResponse("Missing action");
 
-        Response response = null;
-        if(action.equals("a")) {
+        Response response = new Response();
+        response.setAction(action);
+        /*if(action.equals("a")) {
             // Activate Token Response
             response = new Response();
-            response.setAction("activate");
+            response.setAction("a");
         } else if(action.equals("d")) {
             // Deactivate Token Response
             response = new Response();
             response.setAction("deactivate");
         } else {
             throw new InvalidResponse("Invalid action");
-        }
+        } */
 
         response.setKeyValueMap(responseMap);
         for(String key: responseMap.keySet()) {

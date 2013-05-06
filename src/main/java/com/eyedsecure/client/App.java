@@ -166,7 +166,7 @@ public class App {
 
     private static void activate(String clientId, String tokenId, String sharedKey) throws Exception {
         EyeDSecureClient c = new EyeDSecureClient(clientId, sharedKey);
-        Response response = c.activate(tokenId);
+        Response response = c.activate(tokenId, true);
 
         System.out.println("Response: " + response);
 
