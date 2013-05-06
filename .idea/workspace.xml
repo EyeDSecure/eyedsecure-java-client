@@ -3,16 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="e6af5f94-05cb-4223-9d33-396888905d01" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/eyedsecure/client/App.java" afterPath="$PROJECT_DIR$/src/main/java/com/eyedsecure/client/App.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/eyedsecure/client/EyeDSecureClient.java" afterPath="$PROJECT_DIR$/src/main/java/com/eyedsecure/client/EyeDSecureClient.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/eyedsecure/client/EyeDSecureClientTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/eyedsecure/client/EyeDSecureClientTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ReleaseNotes.txt" afterPath="$PROJECT_DIR$/ReleaseNotes.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/eyedsecure/client/ResponseParser.java" afterPath="$PROJECT_DIR$/src/main/java/com/eyedsecure/client/ResponseParser.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="eyedsecure-java-client.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/pom.xml" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1361109577022" ignored="false" />
-    <file path="/Dummy.txt" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367871816950" ignored="false" />
+    <file path="/Dummy.txt" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367875602909" ignored="false" />
     <file path="/TestApp.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367281365617" ignored="false" />
     <file path="/fragment.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367361571795" ignored="false" />
     <file path="/Version.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1361211119046" ignored="false" />
@@ -30,7 +26,7 @@
     <file path="/Response.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367334160614" ignored="false" />
     <file path="/ResponseCode.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367861738863" ignored="false" />
     <file path="/TODO.txt" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367414373402" ignored="false" />
-    <file path="/App.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367875050969" ignored="false" />
+    <file path="/App.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367875710417" ignored="false" />
     <file path="/ResponseTest.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367338917823" ignored="false" />
     <file path="/ResponseParserTest.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367341911983" ignored="false" />
     <file path="/EyeDSecureClientTest.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367875456092" ignored="false" />
@@ -171,10 +167,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="App.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="App.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/eyedsecure/client/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="168" column="52" selection-start="6089" selection-end="6089" vertical-scroll-proportion="0.0">
+            <state line="93" column="12" selection-start="3285" selection-end="3285" vertical-scroll-proportion="0.5446328">
               <folding />
             </state>
           </provider>
@@ -198,10 +194,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReleaseNotes.txt" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ReleaseNotes.txt" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ReleaseNotes.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="27" selection-start="52" selection-end="52" vertical-scroll-proportion="0.039580908">
+            <state line="2" column="27" selection-start="52" selection-end="52" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -298,10 +294,10 @@
         <option value="$PROJECT_DIR$/src/test/java/com/eyedsecure/client/ResponseParserTest.java" />
         <option value="$PROJECT_DIR$/TODO.txt" />
         <option value="$PROJECT_DIR$/src/main/java/com/eyedsecure/client/ResponseParser.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/eyedsecure/client/App.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/eyedsecure/client/EyeDSecureClientTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/eyedsecure/client/EyeDSecureClient.java" />
         <option value="$PROJECT_DIR$/ReleaseNotes.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/com/eyedsecure/client/App.java" />
       </list>
     </option>
   </component>
@@ -316,10 +312,10 @@
     <treeState />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1216" />
-    <option name="height" value="1040" />
+    <option name="x" value="1272" />
+    <option name="y" value="-34" />
+    <option name="width" value="1696" />
+    <option name="height" value="1066" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -764,7 +760,11 @@
       <created>1367414423192</created>
       <updated>1367414423192</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Activate and deactivate working">
+      <created>1367875611476</created>
+      <updated>1367875611476</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -788,7 +788,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1216" height="1040" extended-state="6" />
+    <frame x="1272" y="-34" width="1696" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -809,7 +809,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998884" sideWeight="0.67047817" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27383015" sideWeight="0.6732892" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19339046" sideWeight="0.6732892" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32671082" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -863,7 +863,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial upload" />
+    <option name="LAST_COMMIT_MESSAGE" value="Activate and deactivate working" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -881,6 +881,7 @@
     <MESSAGE value="Add main class TestApp" />
     <MESSAGE value="Changes to TestApp" />
     <MESSAGE value="Initial upload" />
+    <MESSAGE value="Activate and deactivate working" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -968,16 +969,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/eyedsecure/client/App.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/eyedsecure/client/EyeDSecureClientTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="168" column="52" selection-start="6089" selection-end="6089" vertical-scroll-proportion="0.0">
+        <state line="67" column="16" selection-start="2075" selection-end="2075" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/eyedsecure/client/EyeDSecureClientTest.java">
+    <entry file="file://$PROJECT_DIR$/ReleaseNotes.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="16" selection-start="2075" selection-end="2075" vertical-scroll-proportion="0.0">
+        <state line="2" column="27" selection-start="52" selection-end="52" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -991,9 +992,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ReleaseNotes.txt">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/eyedsecure/client/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="27" selection-start="52" selection-end="52" vertical-scroll-proportion="0.039580908">
+        <state line="93" column="12" selection-start="3285" selection-end="3285" vertical-scroll-proportion="0.5446328">
           <folding />
         </state>
       </provider>

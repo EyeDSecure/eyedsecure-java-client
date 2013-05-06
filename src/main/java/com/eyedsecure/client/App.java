@@ -90,14 +90,7 @@ public class App {
         } else if (cmd.equals("activate")) {
             activate(clientId, tokenId, sharedKey);
         } else if (cmd.equals("deactivate")) {
-            if (tokenId == null || tokenId.length() > TOKEN_ID_MAX_LEN || tokenId.length() < TOKEN_ID_MIN_LEN) {
-                System.err.println("Error: Invalid or missing public-id");
-                printUsage();
-                return;
-            }
-
-
-            deactivate(tokenId);
+            deactivate(clientId, tokenId, sharedKey);
 
         } else if (cmd.equals("val") || cmd.equals("validate")) {
 
@@ -183,10 +176,19 @@ public class App {
     /**
      * Deactivate the token
      *
-     * @param publicId - public id of the users Eye-D Card
-     */
-    private static void deactivate(String publicId) {
-        // todo:
+     *
+     * */
+    private static void deactivate(String clientId, String tokenId, String sharedKey) throws Exception {
+        EyeDSecureClient c = new EyeDSecureClient(clientId, sharedKey);
+        Response response = c.activate(tokenId, false);
+
+        System.out.println("Response: " + response);
+
+        if (response != null && response.getResponseCode() == ResponseCode.SUCCESS) {
+            System.out.println("Token Activated");
+        } else {
+            System.out.println("Failed to activate token");
+        }
     }
 
 
