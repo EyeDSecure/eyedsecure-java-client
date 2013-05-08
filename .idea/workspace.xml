@@ -1,45 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e6af5f94-05cb-4223-9d33-396888905d01" name="Default" comment="">
+    <list default="true" id="e6af5f94-05cb-4223-9d33-396888905d01" name="Default" comment="Change to App.java for deactivate">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/eyedsecure/client/AbstractResponseParser.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/eyedsecure/client/ResponseParserDefaultImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/eyedsecure/client/ResponseParserImageImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/eyedsecure/client/App.java" afterPath="$PROJECT_DIR$/src/main/java/com/eyedsecure/client/App.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/eyedsecure/client/EyeDSecureClient.java" afterPath="$PROJECT_DIR$/src/main/java/com/eyedsecure/client/EyeDSecureClient.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/eyedsecure/client/EyeDSecureClientTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/eyedsecure/client/EyeDSecureClientTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/eyedsecure/client/EyeDSecureService.java" afterPath="$PROJECT_DIR$/src/main/java/com/eyedsecure/client/EyeDSecureService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ReleaseNotes.txt" afterPath="$PROJECT_DIR$/ReleaseNotes.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/eyedsecure/client/Response.java" afterPath="$PROJECT_DIR$/src/main/java/com/eyedsecure/client/Response.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/eyedsecure/client/ResponseParser.java" afterPath="$PROJECT_DIR$/src/main/java/com/eyedsecure/client/ResponseParser.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/eyedsecure/client/ResponseParserTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/eyedsecure/client/ResponseParserTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="eyedsecure-java-client.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/pom.xml" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1361109577022" ignored="false" />
-    <file path="/Dummy.txt" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367876075540" ignored="false" />
+    <file path="/Dummy.txt" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1368049161430" ignored="false" />
     <file path="/TestApp.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367281365617" ignored="false" />
-    <file path="/fragment.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367361571795" ignored="false" />
+    <file path="/fragment.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1368043062898" ignored="false" />
     <file path="/Version.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1361211119046" ignored="false" />
-    <file path="/Todo.txt" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367876046426" ignored="false" />
-    <file path="$PROJECT_DIR$/../eyedsecure-server/Todo.txt" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367876046426" ignored="false" />
-    <file path="/EyeDSecureClient.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367875515856" ignored="false" />
+    <file path="/Todo.txt" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1368048740261" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/Todo.txt" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1368048743845" ignored="false" />
+    <file path="/EyeDSecureClient.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1368046932062" ignored="false" />
     <file path="/Signature.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367327624550" ignored="false" />
     <file path="/EyeDSecureResponse.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367322959256" ignored="false" />
     <file path="/EyeDSecureResponseCode.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367323527021" ignored="false" />
-    <file path="$PROJECT_DIR$/../gc_dev/Java/Apps/OMS/Todo.txt" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367377055537" ignored="false" />
+    <file path="$PROJECT_DIR$/../gc_dev/Java/Apps/OMS/Todo.txt" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367935949301" ignored="false" />
     <file path="$PROJECT_DIR$/../yubico-java-client/v2client/src/main/java/com/yubico/client/v2/impl/YubicoClientImpl.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367328290198" ignored="false" />
     <file path="/RequestException.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367328466279" ignored="false" />
-    <file path="/EyeDSecureService.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367335483573" ignored="false" />
-    <file path="/ResponseParser.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367873349515" ignored="false" />
-    <file path="/Response.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367334160614" ignored="false" />
+    <file path="/EyeDSecureService.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1368042978838" ignored="false" />
+    <file path="/ResponseParser.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1368045616535" ignored="false" />
+    <file path="/Response.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1368043424657" ignored="false" />
     <file path="/ResponseCode.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367861738863" ignored="false" />
     <file path="/TODO.txt" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367414373402" ignored="false" />
-    <file path="/App.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367875710417" ignored="false" />
+    <file path="/App.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1368049124124" ignored="false" />
     <file path="/ResponseTest.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367338917823" ignored="false" />
-    <file path="/ResponseParserTest.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367341911983" ignored="false" />
-    <file path="/EyeDSecureClientTest.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367875456092" ignored="false" />
+    <file path="/ResponseParserTest.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1368048142555" ignored="false" />
+    <file path="/EyeDSecureClientTest.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1368048118884" ignored="false" />
     <file path="$PROJECT_DIR$/../eyedsecure-server/test/unit/eyedsecure/APIKeyTests.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367342889755" ignored="false" />
-    <file path="$PROJECT_DIR$/../eyedsecure-server/ReleaseNotes.txt" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367875833279" ignored="false" />
-    <file path="/ReleaseNotes.txt" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367875833279" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/ReleaseNotes.txt" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367948908781" ignored="false" />
+    <file path="/ReleaseNotes.txt" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1368049158130" ignored="false" />
     <file path="$PROJECT_DIR$/../eyedsecure-server/test/unit/eyedsecure/APIRequestTests.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367342942807" ignored="false" />
-    <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/domain/eyedsecure/APIRequest.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367863752991" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/domain/eyedsecure/APIRequest.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1368029872431" ignored="false" />
     <file path="/APIRequest.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367863721384" ignored="false" />
-    <file path="/a.dummy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367866692583" ignored="false" />
+    <file path="/a.dummy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1368040372974" ignored="false" />
     <file path="$PROJECT_DIR$/../eyedsecure-server/src/java/eyedsecure/api/ResponseCode.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367862131109" ignored="false" />
     <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/domain/eyedsecure/LogItem.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367360839291" ignored="false" />
-    <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/domain/eyedsecure/APIKey.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367875294763" ignored="false" />
-    <file path="/APIKey.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367875295065" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/domain/eyedsecure/APIKey.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367953784269" ignored="false" />
+    <file path="/APIKey.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367953784269" ignored="false" />
     <file path="$PROJECT_DIR$/../eyedsecure-server/test/unit/eyedsecure/APIFunctionTests.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367343567212" ignored="false" />
     <file path="$APPLICATION_HOME_DIR$/plugins/Grails/lib/grails_integration.jar!/org/jetbrains/plugins/grails/lang/gsp/resolve/taglib/tld/grails.tld" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367343567212" ignored="false" />
     <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/domain/eyedsecure/APIFunction.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367343690460" ignored="false" />
@@ -47,15 +58,15 @@
     <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/domain/eyedsecure/APIKeyFunction.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367344082856" ignored="false" />
     <file path="/APIKeyFunction.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367344065666" ignored="false" />
     <file path="$PROJECT_DIR$/../eyedsecure-server/test/unit/eyedsecure/AccessRuleTests.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367344621744" ignored="false" />
-    <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/domain/eyedsecure/AccessRule.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367372020757" ignored="false" />
-    <file path="/AccessRule.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367372020383" ignored="false" />
-    <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/services/ValidationService.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367862131109" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/domain/eyedsecure/AccessRule.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367951087538" ignored="false" />
+    <file path="/AccessRule.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367942019347" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/services/ValidationService.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1368035148564" ignored="false" />
     <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/views/tokenLogItem/show.gsp" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367344789425" ignored="false" />
     <file path="$PROJECT_DIR$/../eyedsecure-server/test/unit/eyedsecure/TokenLogItemControllerTests.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367344790895" ignored="false" />
     <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/controllers/eyedsecure/TokenLogItemController.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367344789425" ignored="false" />
     <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/domain/eyedsecure/LogItemToken.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367344789425" ignored="false" />
     <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/views/tokenLogItem/list.gsp" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367344789425" ignored="false" />
-    <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/domain/eyedsecure/Token.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367872837134" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/domain/eyedsecure/Token.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1368040245715" ignored="false" />
     <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/views/tokenLogItem/create.gsp" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367344789426" ignored="false" />
     <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/views/tokenLogItem/_form.gsp" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367344789426" ignored="false" />
     <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/views/tokenLogItem/edit.gsp" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367344789426" ignored="false" />
@@ -68,44 +79,197 @@
     <file path="$PROJECT_DIR$/../eyedsecure-server/test/unit/eyedsecure/LogItemTokenBatchTests.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367345012605" ignored="false" />
     <file path="$PROJECT_DIR$/../eyedsecure-server/test/unit/eyedsecure/TokenBatchLogItemControllerTests.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367345014489" ignored="false" />
     <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/controllers/eyedsecure/TokenBatchLogItemController.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367345012605" ignored="false" />
-    <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/domain/eyedsecure/TokenBatch.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367868351463" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/domain/eyedsecure/TokenBatch.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367953808741" ignored="false" />
     <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/domain/eyedsecure/LogItemTokenBatch.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367345012605" ignored="false" />
     <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/views/tokenBatchLogItem/list.gsp" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367345012605" ignored="false" />
     <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/domain/eyedsecure/LogItemAPIKey.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367345237488" ignored="false" />
     <file path="/LogItemAPIKey.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367345230474" ignored="false" />
     <file path="$PROJECT_DIR$/../eyedsecure-server/test/unit/eyedsecure/AccessRuleSingleIPTests.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367345640579" ignored="false" />
-    <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/domain/eyedsecure/AccessRuleSingleIP.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367372011392" ignored="false" />
-    <file path="/AccessRuleSingleIP.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367345963297" ignored="false" />
-    <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/conf/BootStrap.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367869369166" ignored="false" />
-    <file path="/BootStrap.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367869365447" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/domain/eyedsecure/AccessRuleSingleIP.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367951099138" ignored="false" />
+    <file path="/AccessRuleSingleIP.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367944755155" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/conf/BootStrap.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1368038245748" ignored="false" />
+    <file path="/BootStrap.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367948065301" ignored="false" />
     <file path="$PROJECT_DIR$/../eyedsecure-server/test/unit/eyedsecure/APIControllerTests.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367347105876" ignored="false" />
-    <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/controllers/eyedsecure/APIController.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367875039665" ignored="false" />
-    <file path="/APIController.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367875024348" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/controllers/eyedsecure/APIController.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1368048058738" ignored="false" />
+    <file path="/APIController.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1368047591960" ignored="false" />
     <file path="$PROJECT_DIR$/../eyedsecure-server/test/unit/eyedsecure/APIClientTests.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367349088816" ignored="false" />
-    <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/domain/eyedsecure/APIClient.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367372036205" ignored="false" />
-    <file path="/APIClient.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367372036205" ignored="false" />
-    <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/domain/eyedsecure/LogItemAPIClient.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367349388261" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/domain/eyedsecure/APIClient.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367942076413" ignored="false" />
+    <file path="/APIClient.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367941292276" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/domain/eyedsecure/LogItemAPIClient.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367942093122" ignored="false" />
     <file path="/LogItemAPIClient.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367349386828" ignored="false" />
-    <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/domain/eyedsecure/APIClientSpecificVersion.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367371697052" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/domain/eyedsecure/APIClientSpecificVersion.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367942093122" ignored="false" />
     <file path="/APIClientSpecificVersion.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367349812969" ignored="false" />
     <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/views/API/activate.gsp" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367861047395" ignored="false" />
     <file path="/activate.gsp" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367353489300" ignored="false" />
-    <file path="/ValidationService.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367861889780" ignored="false" />
+    <file path="/ValidationService.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1368035146203" ignored="false" />
     <file path="$PROJECT_DIR$/../eyedsecure-server/src/java/eyedsecure/api/Signature.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367353066976" ignored="false" />
     <file path="$PROJECT_DIR$/../gc_dev/Java/Libs/Product/src/main/java/product/boot/BootStrap.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367354793212" ignored="false" />
     <file path="/BootStrap.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367354793212" ignored="false" />
-    <file path="$PROJECT_DIR$/../gc_dev/Java/pom.xml" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367354836882" ignored="false" />
+    <file path="$PROJECT_DIR$/../gc_dev/Java/pom.xml" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367939784420" ignored="false" />
     <file path="$PROJECT_DIR$/../gc_dev/Java/Apps/OMS/OMSClient/src/main/java/oms/app/OMSClientApp.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367358235580" ignored="false" />
     <file path="/OMSClientApp.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367358233071" ignored="false" />
     <file path="$PROJECT_DIR$/../gc_dev/Java/Libs/OMS/src/main/java/oms/view/panel/LogPanel.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367357376091" ignored="false" />
     <file path="/LogPanel.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367357375767" ignored="false" />
-    <file path="$PROJECT_DIR$/../gc_dev/Java/Apps/OMS/ReleaseNotes.txt" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367357598347" ignored="false" />
-    <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/controllers/eyedsecure/APIRequestController.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367863928010" ignored="false" />
-    <file path="/TokenBatch.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367868319307" ignored="false" />
-    <file path="/Token.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367872837134" ignored="false" />
+    <file path="$PROJECT_DIR$/../gc_dev/Java/Apps/OMS/ReleaseNotes.txt" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367939822986" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/controllers/eyedsecure/APIRequestController.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367881947362" ignored="false" />
+    <file path="/TokenBatch.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367949204098" ignored="false" />
+    <file path="/Token.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1368040219739" ignored="false" />
     <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/views/API/deactivate.gsp" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367874681709" ignored="false" />
     <file path="/deactivate.gsp" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367874681709" ignored="false" />
-    <file path="$PROJECT_DIR$/../eyedsecure-server/.idea/workspace.xml" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367876072170" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/.idea/workspace.xml" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367878750416" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/views/APIRequest/list.gsp" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367882792907" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/views/APIRequest/create.gsp" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367876551372" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/views/APIRequest/_form.gsp" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367876551372" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/views/APIRequest/edit.gsp" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367876551372" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/views/APIRequest/show.gsp" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367882007268" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/test/unit/eyedsecure/APIRequestControllerTests.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367876510001" ignored="false" />
+    <file path="/list.gsp" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367951396560" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/controllers/eyedsecure/APIKeyController.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1368021439526" ignored="false" />
+    <file path="/APIKeyController.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367883138036" ignored="false" />
+    <file path="/APIRequestController.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367881686489" ignored="false" />
+    <file path="/show.gsp" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1368029463266" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/views/home/mainMenu.gsp" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367943805694" ignored="false" />
+    <file path="/mainMenu.gsp" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367943805694" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/controllers/eyedsecure/APIClientController.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367942093122" ignored="false" />
+    <file path="/APIClientController.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367882222969" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/views/APIKey/list.gsp" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367947743992" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/web-app/css/main.css" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367883208547" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/views/token/list.gsp" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367948428522" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/controllers/eyedsecure/TokenController.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367933813416" ignored="false" />
+    <file path="/TokenController.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367883743922" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/controllers/eyedsecure/TokenBatchController.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367884495347" ignored="false" />
+    <file path="/TokenBatchController.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367884331280" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/views/tokenBatch/list.gsp" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367947720869" ignored="false" />
+    <file path="$PROJECT_DIR$/../gc_dev/Java/Apps/OMS/OMSClient/conf/application.properties" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367938234212" ignored="false" />
+    <file path="$PROJECT_DIR$/../gc_dev/Java/Apps/OMS/OMSServer/log4j_jgap.log" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367936932337" ignored="false" />
+    <file path="$PROJECT_DIR$/../gc_dev/Java/Libs/OMS/src/main/java/oms/model/service/impl/OrderManagerServiceDefaultImpl.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367936802724" ignored="false" />
+    <file path="/OrderManagerServiceDefaultImpl.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367936790764" ignored="false" />
+    <file path="$PROJECT_DIR$/../gc_dev/Java/Libs/OMS/src/main/java/oms/model/objects/LogItemOrder.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367938403401" ignored="false" />
+    <file path="/LogItemOrder.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367936531004" ignored="false" />
+    <file path="$PROJECT_DIR$/../gc_dev/Java/Apps/OMS/OMSClient/log4j_jgap.log" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367937152667" ignored="false" />
+    <file path="$PROJECT_DIR$/../gc_dev/Java/Apps/OMS/OMSServer/log4j_jgap.log.1" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367936582399" ignored="false" />
+    <file path="$PROJECT_DIR$/../gc_dev/Java/Libs/OMS/src/main/java/oms/model/objects/LogItem.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367938431806" ignored="false" />
+    <file path="$PROJECT_DIR$/../gc_dev/Java/Libs/OMS/src/main/java/oms/model/objects/Order.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367938431806" ignored="false" />
+    <file path="$PROJECT_DIR$/../gc_dev/Java/Libs/OMS/src/main/java/oms/model/objects/Execution.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367938431806" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/controllers/eyedsecure/AccessRuleController.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1368021449534" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/views/APIClient/list.gsp" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367942093122" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/views/APIClient/show.gsp" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367942093122" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/views/APIClient/edit.gsp" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367942093122" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/views/APIClient/_form.gsp" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367942093122" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/views/APIClient/create.gsp" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367942093122" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/views/APIKey/edit.gsp" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367945641140" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/views/APIKey/_form.gsp" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367953132596" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/views/APIKey/create.gsp" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367945641140" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/views/APIKey/show.gsp" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367953536908" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/views/accessRule/list.gsp" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367951396560" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/views/accessRule/show.gsp" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367951814043" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/views/accessRule/_form.gsp" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367951001757" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/views/accessRule/edit.gsp" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367947409112" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/test/unit/eyedsecure/APIClientControllerTests.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367942156623" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/domain/eyedsecure/APIAgentRule.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367946312700" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/test/unit/eyedsecure/APIAgentRuleTests.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367942097065" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/domain/eyedsecure/APIAgentRuleSpecificVersion.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367944886395" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/controllers/eyedsecure/APIAgentRuleController.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1368021427295" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/views/APIAgentRule/list.gsp" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367949818740" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/views/APIAgentRule/show.gsp" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367952085642" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/views/APIAgentRule/edit.gsp" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367949857298" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/views/APIAgentRule/_form.gsp" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367950394202" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/views/APIAgentRule/create.gsp" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367951904350" ignored="false" />
+    <file path="/APIAgentRule.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367944666371" ignored="false" />
+    <file path="/APIAgentRuleController.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367953423974" ignored="false" />
+    <file path="/APIAgentRuleSpecificVersion.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367944738635" ignored="false" />
+    <file path="/AccessRuleController.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367951745260" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/views/user/_form.gsp" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367945748940" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/controllers/eyedsecure/LoginController.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367945748940" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/conf/Config.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367945748940" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/views/accessRule/create.gsp" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367951543108" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/views/token/show.gsp" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367948693699" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/views/tokenBatch/show.gsp" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367948677025" ignored="false" />
+    <file path="/_form.gsp" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1368029545256" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/i18n/messages.properties" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367950908790" ignored="false" />
+    <file path="/messages.properties" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367950604507" ignored="false" />
+    <file path="/create.gsp" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367951539411" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/views/API/requestChallengeImage.gsp" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1368036495190" ignored="false" />
+    <file path="/requestChallengeImage.gsp" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1368036471688" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/views/API/challengeImage.gsp" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367956115216" ignored="false" />
+    <file path="/challengeImage.gsp" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367956109006" ignored="false" />
+    <file path="/ChallengeFactoryDefaultImpl.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1368022852468" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/src/java/eyedsecure/token/factory/impl/ChallengeFactoryDefaultImpl.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1368022848406" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/src/java/eyedsecure/token/Challenge.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367960067835" ignored="false" />
+    <file path="/Challenge.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367960107748" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/src/java/eyedsecure/token/ChallengeImageCell.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1368024488066" ignored="false" />
+    <file path="/ChallengeImageCell.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1368024532883" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/src/java/eyedsecure/token/renderer/ChallengeRenderer.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1368034937451" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/src/java/eyedsecure/token/ChallengeWithKey.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367961266586" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/src/java/eyedsecure/token/ChallengeImage.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1368024491472" ignored="false" />
+    <file path="/ChallengeWithKey.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367961267087" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/src/java/eyedsecure/token/ChallengeImageWithKey.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1368022203878" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/src/java/eyedsecure/token/factory/ChallengeFactory.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1368031426497" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/views/tokenBatch/_form.gsp" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1367961579566" ignored="false" />
+    <file path="/ChallengeFactory.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1368031229052" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/src/java/eyedsecure/token/factory/ChallengeImageFactory.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1368022287063" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/src/java/eyedsecure/token/factory/impl/ChallengeImageFactoryDefaultImpl.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1368022314474" ignored="false" />
+    <file path="/ChallengeImage.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1368021548979" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/src/java/eyedsecure/token/renderer/impl/TokenRendererDefaultImpl.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1368021790023" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/src/java/eyedsecure/token/factory/TokenFactory.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1368021790023" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/src/java/eyedsecure/token/factory/AbstractTokenFactory.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1368040313386" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/src/groovy/eyedsecure/token/factory/impl/TokenFactoryDefaultImpl.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1368021790023" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/src/java/eyedsecure/token/IToken.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1368040250624" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/src/java/eyedsecure/token/renderer/TokenRenderer.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1368021783813" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/domain/eyedsecure/TokenElement.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1368021790023" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/src/java/eyedsecure/token/ITokenElement.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1368021790023" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/src/java/eyedsecure/token/IChallengeImage.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1368022023827" ignored="false" />
+    <file path="/IChallengeImage.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1368022021864" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/src/java/eyedsecure/token/IChallengeImageCell.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1368021962467" ignored="false" />
+    <file path="/IChallengeImageCell.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1368021913402" ignored="false" />
+    <file path="/ChallengeRenderer.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1368022063286" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/src/java/eyedsecure/token/factory/ChallengeRendererFactory.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1368022045776" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/src/java/eyedsecure/token/renderer/ChallengeImageRenderer.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1368034936912" ignored="false" />
+    <file path="/ChallengeImageWithKey.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1368022205259" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/src/java/eyedsecure/token/IChallengeImageWithKey.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1368022270458" ignored="false" />
+    <file path="/ChallengeImageFactory.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1368022359969" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/src/java/eyedsecure/token/IChallenge.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1368027654116" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/src/java/eyedsecure/token/IChallengeCell.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1368028831813" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/src/java/eyedsecure/token/IChallengeWithKey.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1368023066420" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/src/java/eyedsecure/token/factory/impl/AbstractChallengeFactory.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1368031460307" ignored="false" />
+    <file path="/IChallenge.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1368027391710" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/test/unit/eyedsecure/ChallengeWithKeyTests.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1368023034172" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/test/unit/eyedsecure/ChallengeTests.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1368023040622" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/domain/eyedsecure/Challenge.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1368030988604" ignored="false" />
+    <file path="/Challenge.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1368033487844" ignored="false" />
+    <file path="/IChallengeWithKey.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1368023053903" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/test/unit/eyedsecure/ChallengeCellTests.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1368033243945" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/domain/eyedsecure/ChallengeCell.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1368028657392" ignored="false" />
+    <file path="/ChallengeCell.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1368033442894" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/src/java/eyedsecure/token/AbstractChallengeCell.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1368027092551" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/test/unit/eyedsecure/ChallengeCellValueTests.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1368025182839" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/domain/eyedsecure/ChallengeCellValue.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1368033243945" ignored="false" />
+    <file path="/ChallengeCellValue.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1368027808420" ignored="false" />
+    <file path="/AbstractChallengeFactory.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1368031460307" ignored="false" />
+    <file path="/IChallengeCell.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1368028827747" ignored="false" />
+    <file path="/AbstractChallengeCell.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1368027089349" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/src/java/eyedsecure/token/AbstractChallenge.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1368028434145" ignored="false" />
+    <file path="/AbstractChallenge.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1368027521213" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/test/unit/eyedsecure/server/SecurityFiltersTests.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1368028117929" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/src/groovy/eyedsecure/token/factory/impl/ChallengeFactoryDefaultImpl.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1368033502740" ignored="false" />
+    <file path="/ChallengeFactoryDefaultImpl.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1368031435897" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/domain/eyedsecure/SystemSetting.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1368029577039" ignored="false" />
+    <file path="/SystemSetting.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1368029572257" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/views/systemSetting/_form.gsp" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1368029545256" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/views/systemSetting/show.gsp" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1368029472547" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/src/groovy/eyedsecure/token/Challenge.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1368038657307" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/domain/eyedsecure/token/ChallengeCell.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1368033243945" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/src/groovy/eyedsecure/token/ChallengeCell.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1368033509100" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/grails-app/conf/spring/resources.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1368038424056" ignored="false" />
+    <file path="/resources.groovy" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1368037738156" ignored="false" />
+    <file path="$PROJECT_DIR$/../eyedsecure-server/src/java/eyedsecure/token/renderer/impl/ChallengeRendererOverlapImpl.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1368037719142" ignored="false" />
+    <file path="/ChallengeRendererOverlapImpl.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1368037692218" ignored="false" />
+    <file path="/AbstractTokenFactory.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1368040306266" ignored="false" />
+    <file path="/IToken.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1368040152477" ignored="false" />
+    <file path="/ResponseParserImageImpl.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1368047959605" ignored="false" />
+    <file path="/ResponseParserAbstractimpl.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1368046254052" ignored="false" />
+    <file path="/ResponseParserDefaultImpl.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1368047997948" ignored="false" />
+    <file path="/AbstractResponseParser.java" changelist="e6af5f94-05cb-4223-9d33-396888905d01" time="1368047080660" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,7 +320,53 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/eyedsecure/client/EyeDSecureClient.java" line="240" class="com.eyedsecure.client.EyeDSecureClient" package="com.eyedsecure.client">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/eyedsecure/client/Response.java" line="25" class="com.eyedsecure.client.Response" package="com.eyedsecure.client">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/eyedsecure/client/ResponseParserDefaultImpl.java" line="19" class="com.eyedsecure.client.ResponseParserDefaultImpl" package="com.eyedsecure.client">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
@@ -170,35 +380,10 @@
       <file leaf-file-name="App.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/eyedsecure/client/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="93" column="12" selection-start="3285" selection-end="3285" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EyeDSecureClientTest.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/eyedsecure/client/EyeDSecureClientTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="67" column="16" selection-start="2075" selection-end="2075" vertical-scroll-proportion="1.2659575">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TODO.txt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TODO.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="55" selection-end="55" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ReleaseNotes.txt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ReleaseNotes.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="27" selection-start="52" selection-end="52" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="164" column="43" selection-start="5886" selection-end="5886" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -206,17 +391,48 @@
       <file leaf-file-name="Response.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/eyedsecure/client/Response.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="23" selection-start="1504" selection-end="1518" vertical-scroll-proportion="0.0">
+            <state line="26" column="0" selection-start="927" selection-end="927" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ResponseCode.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/eyedsecure/client/ResponseCode.java">
+      <file leaf-file-name="EyeDSecureClientTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/eyedsecure/client/EyeDSecureClientTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="0" selection-start="1488" selection-end="1488" vertical-scroll-proportion="0.0">
+            <state line="132" column="0" selection-start="4647" selection-end="4647" vertical-scroll-proportion="0.0">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReleaseNotes.txt" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ReleaseNotes.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="56" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ResponseParserDefaultImpl.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/eyedsecure/client/ResponseParserDefaultImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="38" column="43" selection-start="1205" selection-end="1205" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#774#790#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ResponseParserImageImpl.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/eyedsecure/client/ResponseParserImageImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="53" column="17" selection-start="1599" selection-end="1599" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#1163#1179#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -224,17 +440,30 @@
       <file leaf-file-name="ResponseParser.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/eyedsecure/client/ResponseParser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="42" selection-start="1611" selection-end="1611" vertical-scroll-proportion="0.0">
+            <state line="14" column="20" selection-start="255" selection-end="255" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AbstractResponseParser.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/eyedsecure/client/AbstractResponseParser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="0" selection-start="699" selection-end="699" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EyeDSecureService.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/eyedsecure/client/EyeDSecureService.java">
+      <file leaf-file-name="ResponseParserTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/eyedsecure/client/ResponseParserTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="104" column="33" selection-start="3143" selection-end="3143" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="47" column="79" selection-start="1707" selection-end="1707" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#445#472#1" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -242,19 +471,10 @@
       <file leaf-file-name="EyeDSecureClient.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/eyedsecure/client/EyeDSecureClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="140" column="22" selection-start="5023" selection-end="5023" vertical-scroll-proportion="0.0">
+            <state line="37" column="11" selection-start="851" selection-end="851" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#384#411#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Signature.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/eyedsecure/client/Signature.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="14" selection-start="377" selection-end="377" vertical-scroll-proportion="0.0">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -282,22 +502,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/eyedsecure/client/Signature.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/eyedsecure/client/RequestExcaption.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/eyedsecure/client/RequestException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/eyedsecure/client/ResponseException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/eyedsecure/client/EyeDSecureService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/eyedsecure/client/ResponseCode.java" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/test/java/com/eyedsecure/client/ResponseTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/eyedsecure/client/Response.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/eyedsecure/client/ResponseParserTest.java" />
         <option value="$PROJECT_DIR$/TODO.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/com/eyedsecure/client/EyeDSecureService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/eyedsecure/client/Response.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/eyedsecure/client/ResponseParser.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/eyedsecure/client/EyeDSecureClientTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/eyedsecure/client/ResponseParserAbstractimpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/eyedsecure/client/ResponseParserAbstractImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/eyedsecure/client/EyeDSecureClient.java" />
-        <option value="$PROJECT_DIR$/ReleaseNotes.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/com/eyedsecure/client/ResponseParserImageImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/eyedsecure/client/AbstractResponseParser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/eyedsecure/client/ResponseParserDefaultImpl.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/eyedsecure/client/ResponseParserTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/eyedsecure/client/EyeDSecureClientTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/eyedsecure/client/App.java" />
+        <option value="$PROJECT_DIR$/ReleaseNotes.txt" />
       </list>
     </option>
   </component>
@@ -312,10 +532,10 @@
     <treeState />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1216" />
-    <option name="height" value="1040" />
+    <option name="x" value="-1688" />
+    <option name="y" value="22" />
+    <option name="width" value="1696" />
+    <option name="height" value="1066" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -430,91 +650,7 @@
       <recent name="com.eyedsecure.client" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.EyeDSecureClientTest">
-    <configuration default="false" name="EyeDSecureClientTest.testMalformed" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.eyedsecure.client.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="eyedsecure-java-client" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.eyedsecure.client" />
-      <option name="MAIN_CLASS_NAME" value="com.eyedsecure.client.EyeDSecureClientTest" />
-      <option name="METHOD_NAME" value="testMalformed" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="EyeDSecureClientTest.testMalformedNonce" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.eyedsecure.client.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="eyedsecure-java-client" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.eyedsecure.client" />
-      <option name="MAIN_CLASS_NAME" value="com.eyedsecure.client.EyeDSecureClientTest" />
-      <option name="METHOD_NAME" value="testMalformedNonce" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="EyeDSecureClientTest.testMalformedTokenId" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.eyedsecure.client.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="eyedsecure-java-client" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.eyedsecure.client" />
-      <option name="MAIN_CLASS_NAME" value="com.eyedsecure.client.EyeDSecureClientTest" />
-      <option name="METHOD_NAME" value="testMalformedTokenId" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.EyeDSecureClientTest.testRequestChallenge">
     <configuration default="false" name="EyeDSecureClientTest" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" runner="idea">
         <pattern>
@@ -543,7 +679,7 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="EyeDSecureClientTest.testOperationNotAllowed" type="JUnit" factoryName="JUnit" temporary="true">
+    <configuration default="false" name="EyeDSecureClientTest.testReplay" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.eyedsecure.client.*" />
@@ -555,8 +691,104 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.eyedsecure.client" />
       <option name="MAIN_CLASS_NAME" value="com.eyedsecure.client.EyeDSecureClientTest" />
-      <option name="METHOD_NAME" value="testOperationNotAllowed" />
+      <option name="METHOD_NAME" value="testReplay" />
       <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="EyeDSecureClientTest.testActivate" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.eyedsecure.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="eyedsecure-java-client" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.eyedsecure.client" />
+      <option name="MAIN_CLASS_NAME" value="com.eyedsecure.client.EyeDSecureClientTest" />
+      <option name="METHOD_NAME" value="testActivate" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="EyeDSecureClientTest.testRequestChallenge" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.eyedsecure.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="eyedsecure-java-client" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.eyedsecure.client" />
+      <option name="MAIN_CLASS_NAME" value="com.eyedsecure.client.EyeDSecureClientTest" />
+      <option name="METHOD_NAME" value="testRequestChallenge" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ResponseParserTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.eyedsecure.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="eyedsecure-java-client" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.eyedsecure.client" />
+      <option name="MAIN_CLASS_NAME" value="com.eyedsecure.client.ResponseParserTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -629,19 +861,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.EyeDSecureClientTest.testMalformed" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.EyeDSecureClientTest.testMalformedNonce" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.EyeDSecureClientTest.testMalformedTokenId" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.EyeDSecureClientTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.EyeDSecureClientTest.testOperationNotAllowed" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.EyeDSecureClientTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.EyeDSecureClientTest.testReplay" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.EyeDSecureClientTest.testActivate" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.EyeDSecureClientTest.testRequestChallenge" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.ResponseParserTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.EyeDSecureClientTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.EyeDSecureClientTest.testOperationNotAllowed" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.EyeDSecureClientTest.testMalformedTokenId" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.EyeDSecureClientTest.testMalformedNonce" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.EyeDSecureClientTest.testMalformed" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.EyeDSecureClientTest.testRequestChallenge" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.EyeDSecureClientTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.ResponseParserTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.EyeDSecureClientTest.testActivate" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.EyeDSecureClientTest.testReplay" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -722,34 +954,34 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1216" height="1040" extended-state="6" />
+    <frame x="-1688" y="22" width="1696" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31863284" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39624724" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39484978" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289183" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32855567" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952183" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998884" sideWeight="0.67047817" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27383015" sideWeight="0.6732892" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32671082" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19339046" sideWeight="0.6738197" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32618025" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31905782" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Output" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952183" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -826,56 +1058,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/../../Java/jdk1.6.0_20/src.zip!/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="217" column="18" selection-start="10342" selection-end="10342" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/eyedsecure/client/Version.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="13" selection-start="131" selection-end="131" vertical-scroll-proportion="0.10920771">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.8.2/junit-4.8.2-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="405" selection-end="405" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/eyedsecure/client/ResponseParserTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="47" selection-start="644" selection-end="644" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TODO.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="55" selection-end="55" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/eyedsecure/client/Signature.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="14" selection-start="377" selection-end="377" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/eyedsecure/client/ResponseCode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="33" column="0" selection-start="1488" selection-end="1488" vertical-scroll-proportion="0.0">
@@ -883,53 +1065,123 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/eyedsecure/client/Response.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.8.2/junit-4.8.2-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="23" selection-start="1504" selection-end="1518" vertical-scroll-proportion="0.0">
+        <state line="14" column="82" selection-start="362" selection-end="362" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../Java/jdk1.6.0_20/jre/lib/rt.jar!/sun/nio/cs/StreamDecoder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="43" selection-start="817" selection-end="817" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../Java/jdk1.6.0_20/src.zip!/java/io/InputStreamReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="44" selection-start="1700" selection-end="1700" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../Java/jdk1.6.0_20/src.zip!/java/util/UUID.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="154" column="23" selection-start="4616" selection-end="4616" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/eyedsecure/client/EyeDSecureService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="104" column="33" selection-start="3143" selection-end="3143" vertical-scroll-proportion="0.0">
+        <state line="24" column="20" selection-start="608" selection-end="608" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#757#775#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/eyedsecure/client/Response.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="0" selection-start="927" selection-end="927" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/eyedsecure/client/AbstractResponseParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="0" selection-start="699" selection-end="699" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/eyedsecure/client/ResponseParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="42" selection-start="1611" selection-end="1611" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="14" column="20" selection-start="255" selection-end="255" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ReleaseNotes.txt">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/eyedsecure/client/ResponseParserImageImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="27" selection-start="52" selection-end="52" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="53" column="17" selection-start="1599" selection-end="1599" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#1163#1179#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/eyedsecure/client/ResponseParserDefaultImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="43" selection-start="1205" selection-end="1205" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#774#790#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/eyedsecure/client/ResponseParserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="79" selection-start="1707" selection-end="1707" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#445#472#1" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/eyedsecure/client/EyeDSecureClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="140" column="22" selection-start="5023" selection-end="5023" vertical-scroll-proportion="0.0">
+        <state line="37" column="11" selection-start="851" selection-end="851" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#384#411#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/eyedsecure/client/App.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/eyedsecure/client/EyeDSecureClientTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="93" column="12" selection-start="3285" selection-end="3285" vertical-scroll-proportion="0.0">
+        <state line="132" column="0" selection-start="4647" selection-end="4647" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/eyedsecure/client/EyeDSecureClientTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/eyedsecure/client/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="16" selection-start="2075" selection-end="2075" vertical-scroll-proportion="1.2659575">
+        <state line="164" column="43" selection-start="5886" selection-end="5886" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ReleaseNotes.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="56" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>

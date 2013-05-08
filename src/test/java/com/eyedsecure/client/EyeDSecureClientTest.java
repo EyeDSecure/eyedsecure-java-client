@@ -3,6 +3,9 @@ package com.eyedsecure.client;
 import org.junit.Before;
 import org.junit.Test;
 
+import java.io.FileOutputStream;
+import java.io.OutputStream;
+
 import static org.junit.Assert.*;
 import static org.junit.Assert.assertEquals;
 
@@ -118,6 +121,17 @@ public class EyeDSecureClientTest {
     }
 
 
-    // todo: add additional test
+    @Test
+    public void testRequestChallenge() throws RequestException {
+        Response response = client.requestChallenge(testTokenId);
+        assertNotNull(response);
+        assertEquals(response.getTokenId(), testTokenId);
+        assertEquals(response.getAction(), "rc");
+        assertTrue(response.getImage().length > 0);
+        assertEquals(ResponseCode.SUCCESS, response.getResponseCode());
+
+
+    }
+
 
 }

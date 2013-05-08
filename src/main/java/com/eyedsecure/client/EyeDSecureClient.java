@@ -48,19 +48,12 @@ public class EyeDSecureClient {
 
     public Response activate(String tokenId, boolean activate) throws RequestException {
         String nonce = java.util.UUID.randomUUID().toString().replaceAll("-", "");
-        return activate(tokenId, nonce,activate);
+        return activate(tokenId, nonce, activate);
     }
 
 
-    /**
-     * Send token activation request to server
-     * The ClientId must be authorized to send this type of request.
-     */
-    public Response activate(String tokenId, String nonce, boolean activate) throws RequestException {
-        if (sharedKey == null) throw new IllegalArgumentException("This type of request requires a shared key");
+    private String getParamString(String nonce, String tokenId) throws RequestException {
         Map<String, String> reqMap = new HashMap<String, String>();
-
-
         reqMap.put("no", nonce);
         reqMap.put("id", String.valueOf(clientId));
         reqMap.put("tid", tokenId);
@@ -79,33 +72,36 @@ public class EyeDSecureClient {
 
         String paramStr = paramStrBuilder.toString();
 
-
-        // todo: Should shared key be required?
-        if (sharedKey != null) {
-            String s;
-            try {
-                s = URLEncoder.encode(Signature.calculate(paramStr, sharedKey), "UTF-8");
-            } catch (SignatureException e) {
-                throw new RequestException("Failed signing of request", e);
-            } catch (UnsupportedEncodingException e) {
-                throw new RequestException("Failed to encode signature", e);
-            }
-            paramStr = paramStr.concat("&s=" + s);
+        String s;
+        try {
+            s = URLEncoder.encode(Signature.calculate(paramStr, sharedKey), "UTF-8");
+        } catch (SignatureException e) {
+            throw new RequestException("Failed signing of request", e);
+        } catch (UnsupportedEncodingException e) {
+            throw new RequestException("Failed to encode signature", e);
         }
+        return paramStr.concat("&s=" + s);
 
+    }
+
+
+    /**
+     * Send token activation request to server
+     * The ClientId must be authorized to send this type of request.
+     */
+    public Response activate(String tokenId, String nonce, boolean activate) throws RequestException {
+        if (sharedKey == null) throw new IllegalArgumentException("This type of request requires a shared key");
+
+        String paramStr = getParamString(nonce, tokenId);
 
         List<String> serverUrls = new ArrayList<String>();
         for (String url : getUrls()) {
-            if(activate) serverUrls.add(url.concat("/activate?").concat(paramStr));
+            if (activate) serverUrls.add(url.concat("/activate?").concat(paramStr));
             else serverUrls.add(url.concat("/deactivate?").concat(paramStr));
         }
 
-        Response response = service.fetch(serverUrls, userAgent);
+        Response response = service.fetch(serverUrls, userAgent, new ResponseParserDefaultImpl());
 
-
-        //if(response.getSig()==null) {
-        //    throw new RequestException("Response from server is missing signature.");
-        //}
 
         // Verify the signature
         if (sharedKey != null) {
@@ -138,8 +134,92 @@ public class EyeDSecureClient {
             // Verify the action
             if (response.getAction() == null ||
                     (activate && !"a".equals(response.getAction())) ||
-                    (!activate && !"d".equals(response.getAction())) ) {
+                    (!activate && !"d".equals(response.getAction()))) {
+                throw new RequestException("Action mismatch in response, is there a man-in-the-middle?");
+            }
+
+
+            // Verify the nonce
+            if (response.getNonce() == null || !nonce.equals(response.getNonce())) {
+                throw new RequestException("Nonce mismatch in response, is there a man-in-the-middle?");
+            }
+
+            // Verify the tokenId
+            if (response.getTokenId() == null || !tokenId.equals(response.getTokenId())) {
                 throw new RequestException("Token mismatch in response, is there a man-in-the-middle?");
+            }
+
+            // Verify server time, for additional security you can verify the UTC timestamp is reasonable
+            if (response.getServerTimeStamp() == null) {
+                throw new RequestException("Missing server timestamp");
+            }
+
+            if (response.getSig() == null) {
+                throw new RequestException("Missing signature");
+            }
+
+        }
+
+
+        return response;
+    }
+
+
+    public Response requestChallenge(String tokenId) throws RequestException {
+        return requestChallenge(tokenId, getNonce());
+    }
+
+
+    /**
+     * Send challenge request to server
+     * The ClientId must be authorized to send this type of request.
+     */
+    public Response requestChallenge(String tokenId, String nonce) throws RequestException {
+        if (sharedKey == null) throw new IllegalArgumentException("This type of request requires a shared key");
+        String paramStr = getParamString(nonce, tokenId);
+
+        List<String> serverUrls = new ArrayList<String>();
+        for (String url : getUrls()) {
+            serverUrls.add(url.concat("/requestChallengeImage?").concat(paramStr));
+        }
+
+        Response response = service.fetch(serverUrls, userAgent, new ResponseParserImageImpl());
+
+        // Verify the signature
+        StringBuilder keyValueStr = new StringBuilder();
+        for (Map.Entry<String, String> entry : response.getKeyValueMap().entrySet()) {
+            if ("s".equals(entry.getKey())) {
+                continue;
+            } else if ("i".equals(entry.getKey())) {
+
+                //MessageDigest digest = MessageDigest.getInstance("MD5")
+                //String imageSignature = new BigInteger(1,digest.digest(image)).toString(16);
+
+                continue;
+            }
+            if (keyValueStr.length() > 0) {
+                keyValueStr.append("&");
+            }
+            keyValueStr.append(entry.getKey()).append("=").append(entry.getValue());
+        }
+        try {
+            String signature = Signature.calculate(keyValueStr.toString(), sharedKey).trim();
+            if (response.getSig() != null && !response.getSig().equals(signature) &&
+                    !response.getResponseCode().equals(ResponseCode.BAD_SIGNATURE)) {
+                // don't throw a RequestFailure if the server responds with bad signature
+                throw new RequestException("Signatures miss-match");
+            }
+        } catch (SignatureException e) {
+            throw new RequestException("Failed to calculate the response signature.", e);
+        }
+
+
+        // All fields are not returned on an error
+        // If there is an error response, don't need to check them.
+        if (!ResponseCode.isErrorCode(response.getResponseCode())) {
+            // Verify the action
+            if (response.getAction() == null || (!"rc".equals(response.getAction()))) {
+                throw new RequestException("Action mismatch in response, is there a man-in-the-middle?");
             }
 
 

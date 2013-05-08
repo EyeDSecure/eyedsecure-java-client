@@ -22,10 +22,10 @@ public class EyeDSecureService {
 	    completionService = new ExecutorCompletionService<Response>(pool);
 	}
 
-	public Response fetch(List<String> urls, String userAgent) throws RequestException {
+	public Response fetch(List<String> urls, String userAgent, ResponseParser responseParser) throws RequestException {
 	    List<Future<Response>> tasks = new ArrayList<Future<Response>>();
 	    for(String url : urls) {
-	    	tasks.add(completionService.submit(new ServerTask(url, userAgent)));
+	    	tasks.add(completionService.submit(new ServerTask(url, userAgent, responseParser)));
 	    }
 	    Response response = null;
 		try {
@@ -76,16 +76,17 @@ public class EyeDSecureService {
 	class ServerTask implements Callable<Response> {
 		private final String url;
 		private final String userAgent;
-
+        private final ResponseParser responseParser;
 
 		/**
 		 * Set up a ServerTask
 		 * @param url the url to be used
 		 * @param userAgent sent to the server, or NULL to use default
 		 */
-		public ServerTask(String url, String userAgent) {
+		public ServerTask(String url, String userAgent, ResponseParser responseParser) {
 			this.url = url;
 			this.userAgent = userAgent;
+            this.responseParser = responseParser;
 		}
 
 		/**
@@ -102,7 +103,7 @@ public class EyeDSecureService {
 			}
 			conn.setConnectTimeout(20000); // 20 second timeout
 			conn.setReadTimeout(20000); // 20 second timeout for both read and connect
-			return new ResponseParser(conn.getInputStream()).parse();
+			return responseParser.parse(conn.getInputStream());
 		}	
 	}
 }

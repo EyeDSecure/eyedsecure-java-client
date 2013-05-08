@@ -1,5 +1,8 @@
 package com.eyedsecure.client;
 
+import java.io.FileOutputStream;
+import java.io.OutputStream;
+
 /**
  * Created with IntelliJ IDEA.
  * User: boksman
@@ -32,6 +35,8 @@ public class App {
         String imageProfileId = null;
         String otp = null;
 
+        String path = "c:\\";
+
         Integer dpiX = null, dpiY = null;
         Integer red = null, green = null, blue = null;
 
@@ -59,6 +64,9 @@ public class App {
             } else if (args[i].equals("-dy") || args[i].equals("--dpi-y")) {
                 // Dots per inch y
                 dpiY = Integer.parseInt(args[i + 1]);
+            } else if (args[i].equals("-p") || args[i].equals("--path")) {
+                // Path to store challenge image files
+                path = args[i + 1];
             }
         }
 
@@ -84,8 +92,7 @@ public class App {
                 return;
             }
 
-
-            requestChallenge(tokenId, imageProfileId);
+            requestChallenge(clientId, tokenId, sharedKey, path);
 
         } else if (cmd.equals("activate")) {
             activate(clientId, tokenId, sharedKey);
@@ -146,17 +153,56 @@ public class App {
         System.exit(0);
     }
 
+
     /**
      * Request a challenge image
+     * @param clientId    - API Key ID
+     * @param tokenId    - Token Reg code written on token
+     * @param sharedKey  - Shared API Key
+     * @param outputPath - Path to store image
      *
-     * @param publicId       - public id of the users Eye-D Card
-     * @param imageProfileId - [optional] refers to the saved image profile used to generate the image
+     * todo: add support for imageProfileId
+     * todo: add support for jpegs and pngs
+     *
+     * @throws Exception
      */
-    private static void requestChallenge(String publicId, String imageProfileId) {
-        // todo:
+    private static void requestChallenge(String clientId, String tokenId, String sharedKey, String outputPath) throws Exception{
+        EyeDSecureClient c = new EyeDSecureClient(clientId, sharedKey);
+        Response response = c.requestChallenge(tokenId);
+
+
+        if (response != null && response.getResponseCode() == ResponseCode.SUCCESS) {
+            System.out.println("Token Activated");
+        } else {
+            System.out.println("Failed to activate token");
+        }
+
+
+        if (response != null && response.getResponseCode() == ResponseCode.SUCCESS) {
+            System.out.println("Token image written to file");
+
+            OutputStream out = new FileOutputStream(outputPath + "challenge.png");
+            out.write(response.getImage());
+            out.flush();
+            out.close();
+
+
+        } else {
+            System.out.println("Request Failed");
+        }
+
+
+
+
     }
 
-
+    /**
+     * Activate a token
+     * @param clientId - API Key ID
+     * @param tokenId   - Token Reg code written on token
+     * @param sharedKey - Shared API Key
+     * @throws Exception
+     */
     private static void activate(String clientId, String tokenId, String sharedKey) throws Exception {
         EyeDSecureClient c = new EyeDSecureClient(clientId, sharedKey);
         Response response = c.activate(tokenId, true);
@@ -175,8 +221,10 @@ public class App {
 
     /**
      * Deactivate the token
-     *
-     *
+     * @param clientId - API Key ID
+     * @param tokenId   - Token Reg code written on token
+     * @param sharedKey - Shared API Key
+     * @throws Exception
      * */
     private static void deactivate(String clientId, String tokenId, String sharedKey) throws Exception {
         EyeDSecureClient c = new EyeDSecureClient(clientId, sharedKey);
@@ -214,7 +262,7 @@ public class App {
         System.err.println("\nTest Eye-D Secure client functions against Eye-D Secure server");
         System.err.println("\nUsage: java -jar client.jar <options> <command>");
 
-        System.err.println("\n    java -jar client.jar -tid XXXX-YYYY-ZZZZZ -cid 5 -sk xxxxxxxxxxxxxxxxxxxxxxxdkfjdskjfhjdhf activate");
+        System.err.println("\n    java -jar client.jar -tid XXXX-YYYY-ZZZZZ -cid 5 -sk xxxxxxxxxxxx activate");
 
         System.err.println("\n\nCommands:");
         System.err.println("request-challenge - Request a challenge image from the server");
@@ -224,9 +272,9 @@ public class App {
 
         System.err.println("\n\nOptions:");
         System.err.println("-tid, --token-id         - Eye-D Card public token id");
-        System.err.println("-cid, --client-id        - API client id");
-        System.err.println("-sk,  --shared-key       - API shared secret key");
-
+        System.err.println("-cid, --client-id        - API Key id");
+        System.err.println("-sk,  --shared-key       - API Key shared secret, must be obtained from website");
+        System.err.println("-p,   --path             - Path to store challenge images");
         System.err.println("-pid, --image-profile-id - Image profile id, identifier referring to saved profile defining dpi-x, dpi-y, rgb color profile, etc");
         System.err.println("-otp                     - One-time password");
         System.err.println("-dx, --dpi-x             - Horizontal dots per inch for given image profile");

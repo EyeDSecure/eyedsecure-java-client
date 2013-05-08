@@ -11,6 +11,8 @@ public class Response {
     private String nonce;                       // Echos back the nonce from the request. Should match.
     private Map<String, String> keyValueMap;    // Map of response properties
 
+    private byte[] image;                       // optional image as a byte array for image requests
+
 	/**
 	 * Signature of the response, with the same API key as the request.
 	 * 
@@ -25,7 +27,13 @@ public class Response {
     }
 
 
+    public byte[] getImage() {
+        return image;
+    }
 
+    public void setImage(byte[] image) {
+        this.image = image;
+    }
 
     /**
      *

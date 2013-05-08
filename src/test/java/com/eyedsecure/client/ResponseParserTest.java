@@ -5,6 +5,7 @@ import org.junit.Test;
 
 import java.io.ByteArrayInputStream;
 import java.io.IOException;
+import java.io.InputStream;
 
 import static org.junit.Assert.fail;
 
@@ -20,9 +21,12 @@ public class ResponseParserTest {
     public void testParserForNullArg() throws InvalidResponse {
         try {
             @SuppressWarnings("unused")
-            ResponseParser parser = new ResponseParser(null);
+            ResponseParserDefaultImpl parser = new ResponseParserDefaultImpl();
+            parser.parse((InputStream)null);
             fail("Expected an IllegalArgumentException to be thrown.");
         } catch (IllegalArgumentException ioe) {
+        } catch (Exception ioe) {
+            fail("Encountered an exception " + ioe.toString());
         }
     }
 
@@ -36,11 +40,12 @@ public class ResponseParserTest {
                 "c=" + ResponseCode.NO_SUCH_CLIENT_ID;
 
         try {
-            Response response = new ResponseParser(new ByteArrayInputStream(testResponse.getBytes("UTF-8"))).parse();
+            ResponseParser responseParser = new ResponseParserDefaultImpl();
+            Response response = responseParser.parse((new ByteArrayInputStream(testResponse.getBytes("UTF-8"))));
             Assert.assertEquals(response.getResponseCode(), ResponseCode.NO_SUCH_CLIENT_ID);
-            Assert.assertEquals(response.getAction(), "activate");
+            Assert.assertEquals(response.getAction(), "a");
             Assert.assertEquals(response.getNonce(), "xxxxxxxxxxxxxxxxxxxxxxxxxx1xxx");
-            Assert.assertEquals(response.getServerTimeStamp(), "20130430-114821-032");
+            Assert.assertEquals(response.getServerTimeStamp(), "20130430-114821");
             Assert.assertEquals(response.getSig(), "dkjfkdjfkdjfkjdkfj");
             Assert.assertEquals(response.getTokenId(), "CXXXXYYYYZZZZZ");
         } catch (IOException e) {
@@ -53,7 +58,10 @@ public class ResponseParserTest {
         String testResponse="xx=yy\n" +
                 "ben=dana\n";
         try {
-            new ResponseParser(new ByteArrayInputStream(testResponse.getBytes("UTF-8"))).parse();
+
+            ResponseParser responseParser = new ResponseParserDefaultImpl();
+            Response response = responseParser.parse((new ByteArrayInputStream(testResponse.getBytes("UTF-8"))));
+
         } catch (IOException ioe) {
             fail("Encountered an exception");
         }
@@ -61,14 +69,18 @@ public class ResponseParserTest {
         testResponse="xxyy\n" +
                 "ben=dana\n";
         try {
-            new ResponseParser(new ByteArrayInputStream(testResponse.getBytes("UTF-8"))).parse();
+            ResponseParser responseParser = new ResponseParserDefaultImpl();
+            Response response = responseParser.parse((new ByteArrayInputStream(testResponse.getBytes("UTF-8"))));
+
         } catch (IOException ioe) {
             fail("Encountered an exception");
         }
 
         testResponse="xxyy=dana";
         try {
-            new ResponseParser(new ByteArrayInputStream(testResponse.getBytes("UTF-8"))).parse();
+            ResponseParser responseParser = new ResponseParserDefaultImpl();
+            Response response = responseParser.parse((new ByteArrayInputStream(testResponse.getBytes("UTF-8"))));
+
         } catch (IOException ioe) {
             fail("Encountered an exception");
         }
