@@ -18,7 +18,7 @@ public class EyeDSecureClientTest {
      *
      */
     private final String clientId = "0000000000000001";
-    private final String sharedKey = "0123456789";
+    private final String sharedKey = "01234567890123456";
     private final String testTokenId = "T00000001TEST0";
 
     @Before
@@ -37,7 +37,7 @@ public class EyeDSecureClientTest {
     public void testShortClientId() throws RequestException {
         client.setClientId("xxx");
         Response response = client.activate(testTokenId, true);
-        assertEquals(ResponseCode.MISSING_PARAMETER, response.getResponseCode());
+        assertEquals(ResponseCode.INVALID_PARAMETER, response.getResponseCode());
     }
 
 
@@ -99,12 +99,12 @@ public class EyeDSecureClientTest {
         // Send large nonce
         Response response1 = client.activate(testTokenId, "03434340000000000000000000000000000000343242", true);
         assertNotNull(response1);
-        assertEquals(ResponseCode.MISSING_PARAMETER, response1.getResponseCode());
+        assertEquals(ResponseCode.INVALID_PARAMETER, response1.getResponseCode());
 
         // Send large nonce
         Response response2 = client.activate(testTokenId, "0343", true);
         assertNotNull(response2);
-        assertEquals(ResponseCode.MISSING_PARAMETER, response2.getResponseCode());
+        assertEquals(ResponseCode.INVALID_PARAMETER, response2.getResponseCode());
     }
 
     @Test
@@ -112,12 +112,12 @@ public class EyeDSecureClientTest {
         // Send large nonce
         Response response1 = client.activate("dddjh", true);
         assertNotNull(response1);
-        assertEquals(ResponseCode.MISSING_PARAMETER, response1.getResponseCode());
+        assertEquals(ResponseCode.INVALID_PARAMETER, response1.getResponseCode());
 
         // Send large nonce
         Response response2 = client.activate("sdfjhfjdhfhdfkhdfhdhdfhdfjdhfjdhfjhdjhf", true);
         assertNotNull(response2);
-        assertEquals(ResponseCode.MISSING_PARAMETER, response2.getResponseCode());
+        assertEquals(ResponseCode.INVALID_PARAMETER, response2.getResponseCode());
     }
 
 
@@ -129,9 +129,27 @@ public class EyeDSecureClientTest {
         assertEquals(response.getAction(), "rc");
         assertTrue(response.getImage().length > 0);
         assertEquals(ResponseCode.SUCCESS, response.getResponseCode());
+    }
+
+
+    @Test
+    public void testValidateOTP() throws RequestException {
+
+
+        Response response = client.requestChallenge(testTokenId);
+        assertNotNull(response);
+        assertEquals(response.getTokenId(), testTokenId);
+        assertEquals(response.getAction(), "rc");
+        assertTrue(response.getImage().length > 0);
+        assertEquals(ResponseCode.SUCCESS, response.getResponseCode());
+        String challengeId = response.getChallengeId();
+
+        // This should fail
+        Response validate = client.validateOTP(testTokenId, "XXXXX", challengeId);
+        assertNotNull(validate);
+        assertEquals(ResponseCode.FAIL, validate.getResponseCode());
 
 
     }
-
 
 }

@@ -33,10 +33,12 @@ package com.eyedsecure.client;
 
 public enum ResponseCode {
     SUCCESS,                // The request was successful
+    FAIL,                   // The request failed (bad otp)
     NO_SUCH_CLIENT_ID,      // The request id does not exist.
     BAD_SIGNATURE,          // The signature verification failed.
     MISSING_PARAMETER,      // The request lacks a parameter.
     OPERATION_NOT_ALLOWED,  // Operation is not authorised for given client id
+    INVALID_PARAMETER,      // Request has an invalid parameter
     SERVER_ERROR,           // Server Error
     REPLAYED_REQUEST;       // Server has seen the request/Nonce combination before
 
@@ -48,11 +50,13 @@ public enum ResponseCode {
      */
     public static boolean isErrorCode(ResponseCode code) {
         return (
+                ResponseCode.FAIL.equals(code) ||
                 ResponseCode.NO_SUCH_CLIENT_ID.equals(code) ||
                         ResponseCode.BAD_SIGNATURE.equals(code) ||
                         ResponseCode.MISSING_PARAMETER.equals(code) ||
                         ResponseCode.OPERATION_NOT_ALLOWED.equals(code) ||
                         ResponseCode.SERVER_ERROR.equals(code) ||
+                        ResponseCode.INVALID_PARAMETER.equals(code) ||
                         ResponseCode.REPLAYED_REQUEST.equals(code)
 
         );

@@ -32,7 +32,7 @@ public class EyeDSecureClient {
     protected String userAgent;
 
     private static final Integer OTP_MIN_LEN = 4;
-    private static final Integer OTP_MAX_LEN = 10;
+    private static final Integer OTP_MAX_LEN = 12;
 
 
     public EyeDSecureClient(String clientId, String sharedKey) {
@@ -51,12 +51,19 @@ public class EyeDSecureClient {
         return activate(tokenId, nonce, activate);
     }
 
-
     private String getParamString(String nonce, String tokenId) throws RequestException {
+        return getParamString(nonce, tokenId, null, null);
+    }
+
+
+    private String getParamString(String nonce, String tokenId, String otp, String challengeId) throws RequestException {
         Map<String, String> reqMap = new HashMap<String, String>();
-        reqMap.put("no", nonce);
-        reqMap.put("id", String.valueOf(clientId));
-        reqMap.put("tid", tokenId);
+        if(nonce!=null) reqMap.put("no", nonce);
+        if(clientId!=null) reqMap.put("id", String.valueOf(clientId));
+        if(tokenId!=null) reqMap.put("tid", tokenId);
+        if(otp!=null) reqMap.put("otp", otp);
+        if(challengeId!=null) reqMap.put("cid", challengeId);
+
 
         StringBuilder paramStrBuilder = new StringBuilder();
         for (String key : reqMap.keySet()) {
@@ -209,10 +216,9 @@ public class EyeDSecureClient {
             }
 
 
-
             String imageSignature = Signature.calculateImageSignature(response.getImage()).trim();
-            String imageSignatureIn =  response.getKeyValueMap().get("is");
-            if(imageSignatureIn!=null && !imageSignatureIn.equals(imageSignature)) {
+            String imageSignatureIn = response.getKeyValueMap().get("is");
+            if (imageSignatureIn != null && !imageSignatureIn.equals(imageSignature)) {
                 throw new RequestException("Image signature miss-match");
             }
         } catch (SignatureException e) {
@@ -279,10 +285,109 @@ public class EyeDSecureClient {
         return new String(Base64.encodeBase64(this.sharedKey));
     }
 
+    public Response validateOTP(String tokenId, String otp, String challengeId) throws RequestException {
+        if (sharedKey == null) throw new IllegalArgumentException("This type of request requires a shared key");
+        return validateOTP(tokenId, getNonce(), otp, challengeId);
+    }
 
-    /*public static boolean isValidOTPFormat(String otp) {
+    public Response validateOTP(String tokenId, String otp) throws RequestException {
+        if (sharedKey == null) throw new IllegalArgumentException("This type of request requires a shared key");
+        return validateOTP(tokenId, getNonce(), otp, null);
+    }
+
+
+    /**
+     * Validate OTP from most recent challenge
+     *
+     * @param tokenId     - Public token id/Reg code
+     * @param nonce       - Nonce to check reply from server
+     * @param otp         - One-time-password
+     * @param challengeId - This id is returned on a challenge request and is optional in some cases.
+     *                    The sever can be setup to require a challenge id on OTP validation requests as an added
+     *                    precaution. In some cases we may not want to or are unable to provide challenge id.
+     *                    For example if the image is displayed on the cloud/website and login is from an independent
+     *                    linux terminal via a standard username/password field.
+     * @return
+     * @throws RequestException
+     */
+    public Response validateOTP(String tokenId, String nonce, String otp, String challengeId) throws RequestException {
+        if (sharedKey == null) throw new IllegalArgumentException("This type of request requires a shared key");
+
+        if(!isValidOTPFormat(otp)) {
+            throw new IllegalArgumentException("Invalid OTP format");
+        }
+
+
+        String paramStr = getParamString(nonce, tokenId, otp, challengeId);
+
+        List<String> serverUrls = new ArrayList<String>();
+        for (String url : getUrls()) {
+            serverUrls.add(url.concat("/validateOTP?").concat(paramStr));
+        }
+
+        Response response = service.fetch(serverUrls, userAgent, new ResponseParserDefaultImpl());
+
+        // Verify the signature
+        StringBuilder keyValueStr = new StringBuilder();
+        for (Map.Entry<String, String> entry : response.getKeyValueMap().entrySet()) {
+            if ("s".equals(entry.getKey())) {
+                continue;
+            }
+            if (keyValueStr.length() > 0) {
+                keyValueStr.append("&");
+            }
+            keyValueStr.append(entry.getKey()).append("=").append(entry.getValue());
+        }
+        try {
+            String signature = Signature.calculate(keyValueStr.toString(), sharedKey).trim();
+            if (response.getSig() != null && !response.getSig().equals(signature) &&
+                    !response.getResponseCode().equals(ResponseCode.BAD_SIGNATURE)) {
+                // don't throw a RequestFailure if the server responds with bad signature
+                throw new RequestException("Signatures miss-match");
+            }
+        } catch (SignatureException e) {
+            throw new RequestException("Failed to calculate the response signature.", e);
+        }
+
+
+        // All fields are not returned on an error
+        // If there is an error response, don't need to check them.
+        if (!ResponseCode.isErrorCode(response.getResponseCode())) {
+            // Verify the action
+            if (response.getAction() == null || !"v".equals(response.getAction())) {
+                throw new RequestException("Action mismatch in response, is there a man-in-the-middle?");
+            }
+
+
+            // Verify the nonce
+            if (response.getNonce() == null || !nonce.equals(response.getNonce())) {
+                throw new RequestException("Nonce mismatch in response, is there a man-in-the-middle?");
+            }
+
+            // Verify the tokenId
+            if (response.getTokenId() == null || !tokenId.equals(response.getTokenId())) {
+                throw new RequestException("Token mismatch in response, is there a man-in-the-middle?");
+            }
+
+            // Verify server time, for additional security you can verify the UTC timestamp is reasonable
+            if (response.getServerTimeStamp() == null) {
+                throw new RequestException("Missing server timestamp");
+            }
+
+            if (response.getSig() == null) {
+                throw new RequestException("Missing signature");
+            }
+
+
+        }
+
+
+        return response;
+    }
+
+    public static boolean isValidOTPFormat(String otp) {
         if (otp == null){
-            return false; //null strings aren't valid OTPs
+            return false;
         }
         int len = otp.length();
         boolean isPrintable = true;
@@ -293,7 +398,7 @@ public class EyeDSecureClient {
             }
         }
         return isPrintable && (OTP_MIN_LEN <= len && len <= OTP_MAX_LEN);
-    } */
+    }
 
 
 }

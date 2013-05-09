@@ -1,7 +1,4 @@
 
-
-
-Todo: Add validate challenge request
 Todo: Add image image format enum to challenge image requests (PNG, JPEG)
 Todo: Add image profile to challenge image requests
 

@@ -8,6 +8,7 @@ public class Response {
     private String sig;                         // Signature
     private String serverTimeStamp;             // Server timestamp in UTC
     private ResponseCode responseCode;          // Response
+    private String challengeId;                 // Challenge id returned on requestChallenge responses
     private String nonce;                       // Echos back the nonce from the request. Should match.
     private Map<String, String> keyValueMap;    // Map of response properties
 
@@ -108,5 +109,13 @@ public class Response {
 
     public void setServerTimeStamp(String serverTimeStamp) {
         this.serverTimeStamp = serverTimeStamp;
+    }
+
+    public String getChallengeId() {
+        return challengeId;
+    }
+
+    public void setChallengeId(String challengeId) {
+        this.challengeId = challengeId;
     }
 }

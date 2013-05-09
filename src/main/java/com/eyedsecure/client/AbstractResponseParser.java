@@ -34,6 +34,8 @@ public abstract class AbstractResponseParser implements ResponseParser {
                 response.setServerTimeStamp(val);
             } else if (key.equals("c") && val.length()>0)  {
                 response.setResponseCode(ResponseCode.valueOf(val));
+            } else if(key.equals("cid") && val.length()>0) {
+                response.setChallengeId(val);
             }
         }
 
