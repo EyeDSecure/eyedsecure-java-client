@@ -1,6 +1,8 @@
 package com.eyedsecure.client;
 
 import java.io.*;
+import java.math.BigInteger;
+import java.security.MessageDigest;
 import java.util.Map;
 import java.util.TreeMap;
 
@@ -33,6 +35,8 @@ public class ResponseParserImageImpl extends AbstractResponseParser {
         byte[] sig = new byte[sigLen];
         in.readFully(sig, 0, sigLen);
         response.setSig(new String(sig, "UTF-8"));
+
+
 
 
 

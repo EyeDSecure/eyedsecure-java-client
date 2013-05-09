@@ -104,27 +104,25 @@ public class EyeDSecureClient {
 
 
         // Verify the signature
-        if (sharedKey != null) {
-            StringBuilder keyValueStr = new StringBuilder();
-            for (Map.Entry<String, String> entry : response.getKeyValueMap().entrySet()) {
-                if ("s".equals(entry.getKey())) {
-                    continue;
-                }
-                if (keyValueStr.length() > 0) {
-                    keyValueStr.append("&");
-                }
-                keyValueStr.append(entry.getKey()).append("=").append(entry.getValue());
+        StringBuilder keyValueStr = new StringBuilder();
+        for (Map.Entry<String, String> entry : response.getKeyValueMap().entrySet()) {
+            if ("s".equals(entry.getKey())) {
+                continue;
             }
-            try {
-                String signature = Signature.calculate(keyValueStr.toString(), sharedKey).trim();
-                if (response.getSig() != null && !response.getSig().equals(signature) &&
-                        !response.getResponseCode().equals(ResponseCode.BAD_SIGNATURE)) {
-                    // don't throw a RequestFailure if the server responds with bad signature
-                    throw new RequestException("Signatures miss-match");
-                }
-            } catch (SignatureException e) {
-                throw new RequestException("Failed to calculate the response signature.", e);
+            if (keyValueStr.length() > 0) {
+                keyValueStr.append("&");
             }
+            keyValueStr.append(entry.getKey()).append("=").append(entry.getValue());
+        }
+        try {
+            String signature = Signature.calculate(keyValueStr.toString(), sharedKey).trim();
+            if (response.getSig() != null && !response.getSig().equals(signature) &&
+                    !response.getResponseCode().equals(ResponseCode.BAD_SIGNATURE)) {
+                // don't throw a RequestFailure if the server responds with bad signature
+                throw new RequestException("Signatures miss-match");
+            }
+        } catch (SignatureException e) {
+            throw new RequestException("Failed to calculate the response signature.", e);
         }
 
 
@@ -208,6 +206,14 @@ public class EyeDSecureClient {
                     !response.getResponseCode().equals(ResponseCode.BAD_SIGNATURE)) {
                 // don't throw a RequestFailure if the server responds with bad signature
                 throw new RequestException("Signatures miss-match");
+            }
+
+
+
+            String imageSignature = Signature.calculateImageSignature(response.getImage()).trim();
+            String imageSignatureIn =  response.getKeyValueMap().get("is");
+            if(imageSignatureIn!=null && !imageSignatureIn.equals(imageSignature)) {
+                throw new RequestException("Image signature miss-match");
             }
         } catch (SignatureException e) {
             throw new RequestException("Failed to calculate the response signature.", e);

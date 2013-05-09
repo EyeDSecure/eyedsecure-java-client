@@ -1,9 +1,16 @@
-Check signatures from server against server responses.
+
+
+
+Todo: Add validate challenge request
+Todo: Add image image format enum to challenge image requests (PNG, JPEG)
+Todo: Add image profile to challenge image requests
+
+Todo: Important: Test API with multiple servers
+Todo: Important: Change API default urls to prod server
+
+Todo: Add additional unit tests
 
 
 
 
-Add additional unit tests
-Add deactivate
-Add challenge request
-Add validate challenge request
+
