@@ -3,11 +3,7 @@ package com.eyedsecure.client;
 import org.junit.Before;
 import org.junit.Test;
 
-import java.io.FileOutputStream;
-import java.io.OutputStream;
-
 import static org.junit.Assert.*;
-import static org.junit.Assert.assertEquals;
 
 public class EyeDSecureClientTest {
 

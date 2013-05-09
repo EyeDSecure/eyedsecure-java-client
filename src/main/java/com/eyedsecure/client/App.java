@@ -236,7 +236,7 @@ public class App {
         System.err.println("\nTest Eye-D Secure client functions against Eye-D Secure server");
         System.err.println("\nUsage: java -jar client.jar <options> <command>");
 
-        System.err.println("\n    java -jar client.jar -tid XXXX-YYYY-ZZZZZ -cid 5 -sk xxxxxxxxxxxx activate");
+        System.err.println("\n    java -jar client.jar -tid XXXXXYYYYZZZZZ -c XXXXXXXXXXXXXXXX -sk xxxxxxxxxxxx activate");
 
         System.err.println("\n\nCommands:");
         System.err.println("request-challenge - Request a challenge image from the server");
