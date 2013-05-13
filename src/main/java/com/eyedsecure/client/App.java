@@ -142,7 +142,7 @@ public class App {
 
 
         if (response != null && response.getResponseCode() == ResponseCode.SUCCESS) {
-            System.out.println("Token Activated");
+            System.out.println("Challenge requested");
         } else {
             System.out.println("Failed to activate token");
         }
