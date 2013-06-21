@@ -19,7 +19,7 @@ import java.util.Map;
 @SuppressWarnings("unused")
 public class EyeDSecureClient {
 
-    private EyeDSecureService service;
+    protected EyeDSecureService service;
 
     protected String clientId;
     protected byte[] sharedKey;
@@ -42,7 +42,7 @@ public class EyeDSecureClient {
     }
 
 
-    private static String getNonce() {
+    protected static String getNonce() {
         return java.util.UUID.randomUUID().toString().replaceAll("-", "");
     }
 
@@ -51,12 +51,12 @@ public class EyeDSecureClient {
         return activate(tokenId, nonce, activate);
     }
 
-    private String getParamString(String nonce, String tokenId) throws RequestException {
+    protected String getParamString(String nonce, String tokenId) throws RequestException {
         return getParamString(nonce, tokenId, null, null);
     }
 
 
-    private String getParamString(String nonce, String tokenId, String otp, String challengeId) throws RequestException {
+    protected String getParamString(String nonce, String tokenId, String otp, String challengeId) throws RequestException {
         Map<String, String> reqMap = new HashMap<String, String>();
         if(nonce!=null) reqMap.put("no", nonce);
         if(clientId!=null) reqMap.put("id", String.valueOf(clientId));
@@ -175,6 +175,9 @@ public class EyeDSecureClient {
     }
 
 
+
+
+
     /**
      * Send challenge request to server
      * The ClientId must be authorized to send this type of request.
@@ -188,7 +191,7 @@ public class EyeDSecureClient {
             serverUrls.add(url.concat("/requestChallengeImage?").concat(paramStr));
         }
 
-        Response response = service.fetch(serverUrls, userAgent, new ResponseParserImageImpl());
+        ChallengeRequestResponse response = (ChallengeRequestResponse)service.fetch(serverUrls, userAgent, new ResponseParserChallengeRequestImpl());
 
         // Verify the signature
         StringBuilder keyValueStr = new StringBuilder();
@@ -399,6 +402,9 @@ public class EyeDSecureClient {
         }
         return isPrintable && (OTP_MIN_LEN <= len && len <= OTP_MAX_LEN);
     }
+
+
+
 
 
 }

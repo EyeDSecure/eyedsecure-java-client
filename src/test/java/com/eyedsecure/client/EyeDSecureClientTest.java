@@ -119,8 +119,11 @@ public class EyeDSecureClientTest {
 
     @Test
     public void testRequestChallenge() throws RequestException {
-        Response response = client.requestChallenge(testTokenId);
+        testActivate();
+        ChallengeRequestResponse response = (ChallengeRequestResponse)client.requestChallenge(testTokenId);
         assertNotNull(response);
+        String challengeId = response.getChallengeId();
+        assertNotNull(challengeId);
         assertEquals(response.getTokenId(), testTokenId);
         assertEquals(response.getAction(), "rc");
         assertTrue(response.getImage().length > 0);
@@ -130,15 +133,15 @@ public class EyeDSecureClientTest {
 
     @Test
     public void testValidateOTP() throws RequestException {
-
-
-        Response response = client.requestChallenge(testTokenId);
+        ChallengeRequestResponse response = (ChallengeRequestResponse)client.requestChallenge(testTokenId);
         assertNotNull(response);
         assertEquals(response.getTokenId(), testTokenId);
         assertEquals(response.getAction(), "rc");
         assertTrue(response.getImage().length > 0);
         assertEquals(ResponseCode.SUCCESS, response.getResponseCode());
         String challengeId = response.getChallengeId();
+
+        assertNotNull(challengeId);
 
         // This should fail
         Response validate = client.validateOTP(testTokenId, "XXXXX", challengeId);
@@ -147,5 +150,9 @@ public class EyeDSecureClientTest {
 
 
     }
+
+
+
+
 
 }

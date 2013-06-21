@@ -138,7 +138,7 @@ public class App {
      */
     private static void requestChallenge(String clientId, String tokenId, String sharedKey, String outputPath) throws Exception{
         EyeDSecureClient c = new EyeDSecureClient(clientId, sharedKey);
-        Response response = c.requestChallenge(tokenId);
+        ChallengeRequestResponse response = (ChallengeRequestResponse)c.requestChallenge(tokenId);
 
 
         if (response != null && response.getResponseCode() == ResponseCode.SUCCESS) {

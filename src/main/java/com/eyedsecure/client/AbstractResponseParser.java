@@ -14,7 +14,7 @@ public abstract class AbstractResponseParser implements ResponseParser {
      * @param responseMap
      * @return
      */
-     Response parse( Response response, Map<String, String> responseMap) throws InvalidResponse {
+     protected Response parse( Response response, Map<String, String> responseMap) throws InvalidResponse {
         String action = responseMap.get("a");
         if(action==null) throw new InvalidResponse("Missing action");
 
@@ -34,8 +34,6 @@ public abstract class AbstractResponseParser implements ResponseParser {
                 response.setServerTimeStamp(val);
             } else if (key.equals("c") && val.length()>0)  {
                 response.setResponseCode(ResponseCode.valueOf(val));
-            } else if(key.equals("cid") && val.length()>0) {
-                response.setChallengeId(val);
             }
         }
 

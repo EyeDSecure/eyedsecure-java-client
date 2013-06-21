@@ -8,11 +8,10 @@ public class Response {
     private String sig;                         // Signature
     private String serverTimeStamp;             // Server timestamp in UTC
     private ResponseCode responseCode;          // Response
-    private String challengeId;                 // Challenge id returned on requestChallenge responses
+
     private String nonce;                       // Echos back the nonce from the request. Should match.
     private Map<String, String> keyValueMap;    // Map of response properties
 
-    private byte[] image;                       // optional image as a byte array for image requests
 
 	/**
 	 * Signature of the response, with the same API key as the request.
@@ -28,13 +27,7 @@ public class Response {
     }
 
 
-    public byte[] getImage() {
-        return image;
-    }
 
-    public void setImage(byte[] image) {
-        this.image = image;
-    }
 
     /**
      *
@@ -111,11 +104,5 @@ public class Response {
         this.serverTimeStamp = serverTimeStamp;
     }
 
-    public String getChallengeId() {
-        return challengeId;
-    }
 
-    public void setChallengeId(String challengeId) {
-        this.challengeId = challengeId;
-    }
 }

@@ -1,8 +1,8 @@
 package com.eyedsecure.client;
 
-import java.io.*;
-import java.math.BigInteger;
-import java.security.MessageDigest;
+import java.io.DataInputStream;
+import java.io.IOException;
+import java.io.InputStream;
 import java.util.Map;
 import java.util.TreeMap;
 
@@ -11,15 +11,15 @@ import java.util.TreeMap;
  * Date: 4/30/13
  * Time: 10:35 AM
  */
-public class ResponseParserImageImpl extends AbstractResponseParser {
+public class ResponseParserChallengeRequestImpl extends AbstractResponseParser {
 
 
     public Response parse(InputStream inputStream) throws IOException, InvalidResponse {
-        if(inputStream == null) {
+        if (inputStream == null) {
             throw new IllegalArgumentException("InputStream argument was null");
         }
 
-        Response response = new Response();
+        ChallengeRequestResponse response = new ChallengeRequestResponse();
 
 
         DataInputStream in = new DataInputStream(inputStream);
@@ -37,28 +37,28 @@ public class ResponseParserImageImpl extends AbstractResponseParser {
         response.setSig(new String(sig, "UTF-8"));
 
 
-
-
-
         // We use a TreeMap so we get consistent signature
         Map<String, String> responseMap = new TreeMap<String, String>();
 
         String keyValPair[] = mapString.split("&");
 
-        for(String keyVal: keyValPair) {
-            int delimiterIndex=keyVal.indexOf("=");
-            if(delimiterIndex==-1) continue; // Malformed line
-            String key=keyVal.substring(0,delimiterIndex);
-            String val=keyVal.substring(delimiterIndex+1);
+        for (String keyVal : keyValPair) {
+            int delimiterIndex = keyVal.indexOf("=");
+            if (delimiterIndex == -1) continue; // Malformed line
+            String key = keyVal.substring(0, delimiterIndex);
+            String val = keyVal.substring(delimiterIndex + 1);
             responseMap.put(key, val);
+
+            if (key.equals("cid") && val.length() > 0) {
+                response.setChallengeId(val);
+            }
+
         }
 
         in.close();
 
         return parse(response, responseMap);
     }
-
-
 
 
 }

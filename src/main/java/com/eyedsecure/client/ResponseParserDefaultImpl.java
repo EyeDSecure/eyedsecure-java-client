@@ -29,7 +29,6 @@ public class ResponseParserDefaultImpl extends AbstractResponseParser {
         while ((line = in.readLine()) != null) {
             int delimiterIndex=line.indexOf("=");
             if(delimiterIndex==-1) continue; // Malformed line
-
             String key=line.substring(0,delimiterIndex);
             String val=line.substring(delimiterIndex+1);
             responseMap.put(key, val);
