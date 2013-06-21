@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e6af5f94-05cb-4223-9d33-396888905d01" name="Default" comment="app changes">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/eyedsecure/client/ChallengeRequestResponse.java" />
-      <change type="MOVED" beforePath="C:\dev\git\eyedsecure-java-client\src\main\java\com\eyedsecure\client\ResponseParserImageImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/eyedsecure/client/ResponseParserChallengeRequestImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/eyedsecure/client/AbstractResponseParser.java" afterPath="$PROJECT_DIR$/src/main/java/com/eyedsecure/client/AbstractResponseParser.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/eyedsecure/client/App.java" afterPath="$PROJECT_DIR$/src/main/java/com/eyedsecure/client/App.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/eyedsecure/client/EyeDSecureClient.java" afterPath="$PROJECT_DIR$/src/main/java/com/eyedsecure/client/EyeDSecureClient.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/eyedsecure/client/EyeDSecureClientTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/eyedsecure/client/EyeDSecureClientTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/eyedsecure/client/Response.java" afterPath="$PROJECT_DIR$/src/main/java/com/eyedsecure/client/Response.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/eyedsecure/client/ResponseParserDefaultImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/eyedsecure/client/ResponseParserDefaultImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eyedsecure-java-client.iml" afterPath="$PROJECT_DIR$/eyedsecure-java-client.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
+    <list default="true" id="e6af5f94-05cb-4223-9d33-396888905d01" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="eyedsecure-java-client.iws" />
@@ -813,7 +803,11 @@
       <created>1368407979666</created>
       <updated>1368407979666</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Pre-Release 6/20/2013&#10;- Completed tokenInfoRequest">
+      <created>1371782094780</created>
+      <updated>1371782094780</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -838,7 +832,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1856" height="1096" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -914,7 +908,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="app changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pre-Release 6/20/2013&#10;- Completed tokenInfoRequest" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -940,6 +934,7 @@
     <MESSAGE value="5/9/2013&#10;--------------&#10;OTP Validate request working" />
     <MESSAGE value="Small fixes to tests" />
     <MESSAGE value="app changes" />
+    <MESSAGE value="Pre-Release 6/20/2013&#10;- Completed tokenInfoRequest" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
